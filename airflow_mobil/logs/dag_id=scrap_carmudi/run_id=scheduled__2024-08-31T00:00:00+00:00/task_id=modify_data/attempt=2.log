@@ -1,0 +1,37 @@
+[2024-09-01T07:06:18.581+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-01T07:06:18.887+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_carmudi.modify_data scheduled__2024-08-31T00:00:00+00:00 [queued]>
+[2024-09-01T07:06:18.907+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_carmudi.modify_data scheduled__2024-08-31T00:00:00+00:00 [queued]>
+[2024-09-01T07:06:18.908+0700] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-09-01T07:06:18.950+0700] {taskinstance.py:2330} INFO - Executing <Task(SparkSubmitOperator): modify_data> on 2024-08-31 00:00:00+00:00
+[2024-09-01T07:06:18.961+0700] {standard_task_runner.py:64} INFO - Started process 223911 to run task
+[2024-09-01T07:06:18.969+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_carmudi', 'modify_data', 'scheduled__2024-08-31T00:00:00+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/carmudi/scrape_carmudi.py', '--cfg-path', '/tmp/tmpnqvwrajg']
+[2024-09-01T07:06:18.981+0700] {standard_task_runner.py:91} INFO - Job 212: Subtask modify_data
+[2024-09-01T07:06:19.189+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_carmudi.modify_data scheduled__2024-08-31T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-01T07:06:19.599+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_carmudi' AIRFLOW_CTX_TASK_ID='modify_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-31T00:00:00+00:00'
+[2024-09-01T07:06:19.601+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-01T07:06:19.685+0700] {base.py:84} INFO - Using connection ID 'spark_local' for task execution.
+[2024-09-01T07:06:19.691+0700] {spark_submit.py:403} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/carmudi.py
+[2024-09-01T07:06:23.510+0700] {spark_submit.py:579} INFO - 24/09/01 07:06:23 WARN Utils: Your hostname, BrightHorizons resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2024-09-01T07:06:23.518+0700] {spark_submit.py:579} INFO - 24/09/01 07:06:23 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-09-01T07:06:24.641+0700] {spark_submit.py:579} INFO - python3: can't open file '/home/miracle/mobil/spark/carmudi.py': [Errno 2] No such file or directory
+[2024-09-01T07:06:24.693+0700] {spark_submit.py:579} INFO - 24/09/01 07:06:24 INFO ShutdownHookManager: Shutdown hook called
+[2024-09-01T07:06:24.697+0700] {spark_submit.py:579} INFO - 24/09/01 07:06:24 INFO ShutdownHookManager: Deleting directory /tmp/spark-46a98eef-b097-43e6-9348-69f602855c8a
+[2024-09-01T07:06:24.741+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-01T07:06:24.760+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 174, in execute
+    self._hook.submit(self.application)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 505, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/carmudi.py. Error code is: 2.
+[2024-09-01T07:06:24.765+0700] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=scrap_carmudi, task_id=modify_data, run_id=scheduled__2024-08-31T00:00:00+00:00, execution_date=20240831T000000, start_date=20240901T000618, end_date=20240901T000624
+[2024-09-01T07:06:24.788+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 212 for task modify_data (Cannot execute: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/carmudi.py. Error code is: 2.; 223911)
+[2024-09-01T07:06:24.832+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-09-01T07:06:24.860+0700] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-01T07:06:24.863+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

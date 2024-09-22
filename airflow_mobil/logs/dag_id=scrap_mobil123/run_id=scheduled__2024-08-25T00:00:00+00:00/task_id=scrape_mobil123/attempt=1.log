@@ -1,0 +1,67 @@
+[2024-08-26T07:30:41.756+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-26T07:30:42.176+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-25T00:00:00+00:00 [queued]>
+[2024-08-26T07:30:42.190+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-25T00:00:00+00:00 [queued]>
+[2024-08-26T07:30:42.191+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-26T07:30:42.208+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_mobil123> on 2024-08-25 00:00:00+00:00
+[2024-08-26T07:30:42.214+0700] {standard_task_runner.py:64} INFO - Started process 115451 to run task
+[2024-08-26T07:30:42.220+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_mobil123', 'scrape_mobil123', 'scheduled__2024-08-25T00:00:00+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/mobil123/scrap_mobil123.py', '--cfg-path', '/tmp/tmpl17_jjiq']
+[2024-08-26T07:30:42.228+0700] {standard_task_runner.py:91} INFO - Job 128: Subtask scrape_mobil123
+[2024-08-26T07:30:42.342+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-25T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-26T07:30:42.441+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_mobil123' AIRFLOW_CTX_TASK_ID='scrape_mobil123' AIRFLOW_CTX_EXECUTION_DATE='2024-08-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-25T00:00:00+00:00'
+[2024-08-26T07:30:42.442+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-26T19:28:02.221+0700] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-08-26T19:28:02.222+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-26T19:28:02.227+0700] {process_utils.py:132} INFO - Sending 15 to group 115451. PIDs of all processes in the group: [115451]
+[2024-08-26T19:28:02.228+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 115451
+[2024-08-26T19:28:02.229+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-26T19:28:02.230+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-26T19:28:02.261+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/mobil123/mobil123_scrape.py", line 90, in mobil123_scrape
+    response = fetch_data_with_retries(base_url, params, headers)
+  File "/home/miracle/mobil/scrape/script/mobil123/mobil123_scrape.py", line 46, in fetch_data_with_retries
+    response = requests.get(url, params=params, headers=headers)
+  File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.10/ssl.py", line 1303, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.10/ssl.py", line 1159, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-08-26T19:28:02.295+0700] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=scrap_mobil123, task_id=scrape_mobil123, run_id=scheduled__2024-08-25T00:00:00+00:00, execution_date=20240825T000000, start_date=20240826T003042, end_date=20240826T122802
+[2024-08-26T19:28:02.362+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=115451, status='terminated', exitcode=2, started='07:30:41') (115451) terminated with exit code 2

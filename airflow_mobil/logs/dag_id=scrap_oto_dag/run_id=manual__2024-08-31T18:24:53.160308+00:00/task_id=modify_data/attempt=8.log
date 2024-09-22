@@ -1,0 +1,22 @@
+[2024-09-01T04:47:18.314+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-01T04:47:18.348+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.modify_data manual__2024-08-31T18:24:53.160308+00:00 [queued]>
+[2024-09-01T04:47:18.357+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.modify_data manual__2024-08-31T18:24:53.160308+00:00 [queued]>
+[2024-09-01T04:47:18.358+0700] {taskinstance.py:2306} INFO - Starting attempt 8 of 9
+[2024-09-01T04:47:18.372+0700] {taskinstance.py:2330} INFO - Executing <Task(SparkSubmitOperator): modify_data> on 2024-08-31 18:24:53.160308+00:00
+[2024-09-01T04:47:18.377+0700] {standard_task_runner.py:64} INFO - Started process 178693 to run task
+[2024-09-01T04:47:18.380+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'modify_data', 'manual__2024-08-31T18:24:53.160308+00:00', '--job-id', '190', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpm0jg_2sa']
+[2024-09-01T04:47:18.382+0700] {standard_task_runner.py:91} INFO - Job 190: Subtask modify_data
+[2024-09-01T04:47:18.441+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.modify_data manual__2024-08-31T18:24:53.160308+00:00 [running]> on host BrightHorizons.
+[2024-09-01T04:47:18.540+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='modify_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-31T18:24:53.160308+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-31T18:24:53.160308+00:00'
+[2024-09-01T04:47:18.541+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-01T04:47:18.564+0700] {base.py:84} INFO - Using connection ID 'spark_local' for task execution.
+[2024-09-01T04:47:18.564+0700] {spark_submit.py:403} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark_transform/oto_transform.py
+[2024-09-01T04:47:20.345+0700] {spark_submit.py:579} INFO - 24/09/01 04:47:20 WARN Utils: Your hostname, BrightHorizons resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2024-09-01T04:47:20.348+0700] {spark_submit.py:579} INFO - 24/09/01 04:47:20 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-09-01T04:47:21.609+0700] {spark_submit.py:579} INFO - 24/09/01 04:47:21 INFO ShutdownHookManager: Shutdown hook called
+[2024-09-01T04:47:21.610+0700] {spark_submit.py:579} INFO - 24/09/01 04:47:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-37c78088-8d21-4af0-a04e-d3d7cf2faf16
+[2024-09-01T04:47:21.648+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-01T04:47:21.660+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=scrap_oto_dag, task_id=modify_data, run_id=manual__2024-08-31T18:24:53.160308+00:00, execution_date=20240831T182453, start_date=20240831T214718, end_date=20240831T214721
+[2024-09-01T04:47:21.687+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-09-01T04:47:21.708+0700] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-01T04:47:21.710+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

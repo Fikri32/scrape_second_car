@@ -1,0 +1,33 @@
+[2024-09-22T16:04:58.584+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T16:04:58.610+0700] {taskinstance.py:2066} INFO - Dependencies not met for <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-09-22T09:04:58.610183+00:00 and task will be retried at 2024-09-22T09:09:58.237443+00:00.
+[2024-09-22T16:04:58.612+0700] {local_task_job_runner.py:163} INFO - Task is not able to be run
+[2024-09-22T16:09:59.638+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T16:09:59.666+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:09:59.672+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:09:59.673+0700] {taskinstance.py:2306} INFO - Starting attempt 8 of 8
+[2024-09-22T16:09:59.683+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-09-06 00:00:00+00:00
+[2024-09-22T16:09:59.688+0700] {standard_task_runner.py:64} INFO - Started process 249564 to run task
+[2024-09-22T16:09:59.690+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'scrape_oto', 'scheduled__2024-09-06T00:00:00+00:00', '--job-id', '265', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpdeg7tqtc']
+[2024-09-22T16:09:59.692+0700] {standard_task_runner.py:91} INFO - Job 265: Subtask scrape_oto
+[2024-09-22T16:09:59.742+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-22T16:09:59.917+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T00:00:00+00:00'
+[2024-09-22T16:09:59.918+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-22T16:10:00.161+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-40-juta
+[2024-09-22T16:10:00.161+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-40-juta
+[2024-09-22T16:10:00.163+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-40-juta
+[2024-09-22T16:10:00.170+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-40-juta
+[2024-09-22T16:10:00.175+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-30-juta
+[2024-09-22T16:10:00.175+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-30-juta
+[2024-09-22T16:10:00.177+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-30-juta
+[2024-09-22T16:10:00.178+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-30-juta
+[2024-09-22T16:10:00.182+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-60-juta
+[2024-09-22T16:10:00.183+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-60-juta
+[2024-09-22T16:10:00.184+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-60-juta
+[2024-09-22T16:10:00.184+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-60-juta
+[2024-09-22T16:10:00.194+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-50-juta
+[2024-09-22T16:10:00.194+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-50-juta
+[2024-09-22T16:10:00.199+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-50-juta
+[2024-09-22T16:10:00.201+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-50-juta
+[2024-09-22T16:14:59.348+0700] {conn.py:380} INFO - <BrokerConnection node_id=0 host=BrightHorizons.:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to BrightHorizons.:9092 [('127.0.1.1', 9092) IPv4]
+[2024-09-22T16:14:59.349+0700] {conn.py:410} INFO - <BrokerConnection node_id=0 host=BrightHorizons.:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+[2024-09-22T16:14:59.350+0700] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 

@@ -1,0 +1,105 @@
+[2024-08-31T20:25:39.069+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-31T20:25:39.269+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_carmudi.scrape_carmudi scheduled__2024-08-29T00:00:00+00:00 [queued]>
+[2024-08-31T20:25:39.283+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_carmudi.scrape_carmudi scheduled__2024-08-29T00:00:00+00:00 [queued]>
+[2024-08-31T20:25:39.284+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-31T20:25:39.303+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_carmudi> on 2024-08-29 00:00:00+00:00
+[2024-08-31T20:25:39.308+0700] {standard_task_runner.py:64} INFO - Started process 31413 to run task
+[2024-08-31T20:25:39.312+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_carmudi', 'scrape_carmudi', 'scheduled__2024-08-29T00:00:00+00:00', '--job-id', '157', '--raw', '--subdir', 'DAGS_FOLDER/carmudi/scrape_carmudi.py', '--cfg-path', '/tmp/tmpn6s2224e']
+[2024-08-31T20:25:39.314+0700] {standard_task_runner.py:91} INFO - Job 157: Subtask scrape_carmudi
+[2024-08-31T20:25:39.410+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_carmudi.scrape_carmudi scheduled__2024-08-29T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-31T20:25:39.522+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_carmudi' AIRFLOW_CTX_TASK_ID='scrape_carmudi' AIRFLOW_CTX_EXECUTION_DATE='2024-08-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-29T00:00:00+00:00'
+[2024-08-31T20:25:39.523+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-31T20:25:42.617+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 2 for price category: dibawah 50 Juta
+[2024-08-31T20:25:42.758+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 1 for price category: dibawah 30 Juta
+[2024-08-31T20:25:42.763+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 3 for price category: dibawah 60 Juta
+[2024-08-31T20:25:43.298+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 2 for price category: dibawah 40 Juta
+[2024-08-31T20:25:44.266+0700] {logging_mixin.py:188} INFO - Sleeping for 2.86 seconds...
+[2024-08-31T20:25:44.624+0700] {logging_mixin.py:188} INFO - Sleeping for 1.59 seconds...
+[2024-08-31T20:25:44.836+0700] {logging_mixin.py:188} INFO - Sleeping for 2.20 seconds...
+[2024-08-31T20:25:45.051+0700] {logging_mixin.py:188} INFO - Sleeping for 1.87 seconds...
+[2024-08-31T20:25:46.214+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 3 for price category: dibawah 60 Juta
+[2024-08-31T20:25:46.927+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 2 for price category: dibawah 40 Juta
+[2024-08-31T20:25:47.040+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 2 for price category: dibawah 50 Juta
+[2024-08-31T20:25:47.133+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 30 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 30 Juta_2024-08-31.csv
+[2024-08-31T20:25:48.111+0700] {logging_mixin.py:188} INFO - Sleeping for 2.73 seconds...
+[2024-08-31T20:25:48.260+0700] {logging_mixin.py:188} INFO - Sleeping for 2.75 seconds...
+[2024-08-31T20:25:49.975+0700] {logging_mixin.py:188} INFO - Sleeping for 2.91 seconds...
+[2024-08-31T20:25:50.475+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 4 for price category: dibawah 70 Juta
+[2024-08-31T20:25:50.841+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 3 for price category: dibawah 60 Juta
+[2024-08-31T20:25:51.011+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 40 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 40 Juta_2024-08-31.csv
+[2024-08-31T20:25:52.889+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 50 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 50 Juta_2024-08-31.csv
+[2024-08-31T20:25:53.248+0700] {logging_mixin.py:188} INFO - Sleeping for 2.38 seconds...
+[2024-08-31T20:25:53.342+0700] {logging_mixin.py:188} INFO - Sleeping for 1.98 seconds...
+[2024-08-31T20:25:54.365+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah 80 Juta
+[2024-08-31T20:25:55.330+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 4 for price category: dibawah 70 Juta
+[2024-08-31T20:25:55.644+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 60 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 60 Juta_2024-08-31.csv
+[2024-08-31T20:25:56.537+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:25:57.569+0700] {logging_mixin.py:188} INFO - Sleeping for 1.65 seconds...
+[2024-08-31T20:25:58.975+0700] {logging_mixin.py:188} INFO - Sleeping for 1.79 seconds...
+[2024-08-31T20:25:58.991+0700] {logging_mixin.py:188} INFO - Sleeping for 1.65 seconds...
+[2024-08-31T20:25:59.226+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah 80 Juta
+[2024-08-31T20:26:00.284+0700] {logging_mixin.py:188} INFO - Sleeping for 2.33 seconds...
+[2024-08-31T20:26:00.648+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 4 for price category: dibawah 70 Juta
+[2024-08-31T20:26:00.770+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:02.357+0700] {logging_mixin.py:188} INFO - Sleeping for 2.49 seconds...
+[2024-08-31T20:26:02.505+0700] {logging_mixin.py:188} INFO - Sleeping for 2.82 seconds...
+[2024-08-31T20:26:02.615+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah 80 Juta
+[2024-08-31T20:26:04.258+0700] {logging_mixin.py:188} INFO - Sleeping for 1.74 seconds...
+[2024-08-31T20:26:04.864+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 4 for price category: dibawah 70 Juta
+[2024-08-31T20:26:05.325+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:06.003+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah 80 Juta
+[2024-08-31T20:26:08.604+0700] {logging_mixin.py:188} INFO - Sleeping for 2.40 seconds...
+[2024-08-31T20:26:08.945+0700] {logging_mixin.py:188} INFO - Sleeping for 2.45 seconds...
+[2024-08-31T20:26:09.505+0700] {logging_mixin.py:188} INFO - Sleeping for 2.72 seconds...
+[2024-08-31T20:26:11.006+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 70 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 70 Juta_2024-08-31.csv
+[2024-08-31T20:26:11.397+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah 80 Juta
+[2024-08-31T20:26:12.225+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:12.776+0700] {logging_mixin.py:188} INFO - Sleeping for 2.34 seconds...
+[2024-08-31T20:26:13.626+0700] {logging_mixin.py:188} INFO - Sleeping for 2.48 seconds...
+[2024-08-31T20:26:15.122+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 80 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 80 Juta_2024-08-31.csv
+[2024-08-31T20:26:16.105+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:17.469+0700] {logging_mixin.py:188} INFO - Sleeping for 2.00 seconds...
+[2024-08-31T20:26:19.466+0700] {logging_mixin.py:188} INFO - Fetching page 6 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:19.813+0700] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-08-31T20:26:19.814+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-31T20:26:19.817+0700] {process_utils.py:132} INFO - Sending 15 to group 31413. PIDs of all processes in the group: [31413]
+[2024-08-31T20:26:19.818+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 31413
+[2024-08-31T20:26:19.821+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-31T20:26:21.485+0700] {logging_mixin.py:188} INFO - Sleeping for 1.77 seconds...
+[2024-08-31T20:26:23.256+0700] {logging_mixin.py:188} INFO - Fetching page 7 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:25.230+0700] {logging_mixin.py:188} INFO - Sleeping for 1.96 seconds...
+[2024-08-31T20:26:27.191+0700] {logging_mixin.py:188} INFO - Fetching page 8 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:29.173+0700] {logging_mixin.py:188} INFO - Sleeping for 1.65 seconds...
+[2024-08-31T20:26:30.826+0700] {logging_mixin.py:188} INFO - Fetching page 9 of 9 for price category: dibawah 90 Juta
+[2024-08-31T20:26:31.932+0700] {logging_mixin.py:188} INFO - Sleeping for 2.25 seconds...
+[2024-08-31T20:26:34.189+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 90 Juta written to /home/miracle/mobil/scrape/output/carmudi/2024-08-31/carmudi_dibawah 90 Juta_2024-08-31.csv
+[2024-08-31T20:26:34.191+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-31T20:26:34.205+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/carmudi/carmudi.py", line 208, in carmudi_scrape
+    future.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-08-31T20:26:34.209+0700] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=scrap_carmudi, task_id=scrape_carmudi, run_id=scheduled__2024-08-29T00:00:00+00:00, execution_date=20240829T000000, start_date=20240831T132539, end_date=20240831T132634
+[2024-08-31T20:26:34.222+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 157 for task scrape_carmudi ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(scrap_carmudi, scrape_carmudi, scheduled__2024-08-29T00:00:00+00:00, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'scrape_carmudi', 'dag_id': 'scrap_carmudi', 'run_id': 'scheduled__2024-08-29T00:00:00+00:00', 'map_index': -1, 'start_date': datetime.datetime(2024, 8, 31, 13, 25, 39, 269533, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2024, 8, 31, 13, 26, 34, 208897, tzinfo=Timezone('UTC')), 'duration': 54}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 31413)
+[2024-08-31T20:26:34.260+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=31413, status='terminated', exitcode=1, started='20:25:38') (31413) terminated with exit code 1

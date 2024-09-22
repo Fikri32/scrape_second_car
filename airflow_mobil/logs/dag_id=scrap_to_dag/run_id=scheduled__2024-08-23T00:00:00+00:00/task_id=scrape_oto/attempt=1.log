@@ -1,0 +1,24 @@
+[2024-08-24T12:14:23.825+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-24T12:14:23.979+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-23T00:00:00+00:00 [queued]>
+[2024-08-24T12:14:23.989+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-23T00:00:00+00:00 [queued]>
+[2024-08-24T12:14:23.989+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-24T12:14:24.001+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-08-23 00:00:00+00:00
+[2024-08-24T12:14:24.005+0700] {standard_task_runner.py:64} INFO - Started process 20076 to run task
+[2024-08-24T12:14:24.007+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_to_dag', 'scrape_oto', 'scheduled__2024-08-23T00:00:00+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpdsfth3li']
+[2024-08-24T12:14:24.010+0700] {standard_task_runner.py:91} INFO - Job 87: Subtask scrape_oto
+[2024-08-24T12:14:24.071+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-23T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-24T12:14:24.166+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_to_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-08-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-23T00:00:00+00:00'
+[2024-08-24T12:14:24.167+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-24T12:14:24.176+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-30-juta on date: 2024-08-24
+[2024-08-24T12:14:24.398+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah-30-juta
+[2024-08-24T12:14:26.936+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah-30-juta
+[2024-08-24T12:14:29.468+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah-30-juta
+[2024-08-24T12:14:33.599+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah-30-juta
+[2024-08-24T12:14:36.550+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah-30-juta
+[2024-08-24T12:14:39.973+0700] {logging_mixin.py:188} INFO - Data for price category dibawah-30-juta written to /home/miracle/mobil/scrape/output/oto/2024-08-24/oto_car_dibawah_30_juta_2024-08-24.csv
+[2024-08-24T12:14:39.975+0700] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-24T12:14:39.976+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-24T12:14:39.987+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=scrap_to_dag, task_id=scrape_oto, run_id=scheduled__2024-08-23T00:00:00+00:00, execution_date=20240823T000000, start_date=20240824T051423, end_date=20240824T051439
+[2024-08-24T12:14:40.010+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-24T12:14:40.031+0700] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-24T12:14:40.033+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

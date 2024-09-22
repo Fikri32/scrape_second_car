@@ -1,0 +1,60 @@
+[2024-09-22T15:18:24.347+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T15:18:24.373+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T15:18:24.381+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T15:18:24.382+0700] {taskinstance.py:2306} INFO - Starting attempt 3 of 4
+[2024-09-22T15:18:24.393+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-09-06 00:00:00+00:00
+[2024-09-22T15:18:24.398+0700] {standard_task_runner.py:64} INFO - Started process 245317 to run task
+[2024-09-22T15:18:24.400+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'scrape_oto', 'scheduled__2024-09-06T00:00:00+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpj__92d50']
+[2024-09-22T15:18:24.402+0700] {standard_task_runner.py:91} INFO - Job 260: Subtask scrape_oto
+[2024-09-22T15:18:24.454+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-22T15:18:24.635+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T00:00:00+00:00'
+[2024-09-22T15:18:24.636+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-22T15:18:24.974+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-40-juta
+[2024-09-22T15:18:24.975+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-40-juta
+[2024-09-22T15:18:24.976+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-40-juta
+[2024-09-22T15:18:24.979+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-40-juta
+[2024-09-22T15:18:24.989+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-60-juta
+[2024-09-22T15:18:24.989+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-60-juta
+[2024-09-22T15:18:24.991+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-60-juta
+[2024-09-22T15:18:24.993+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-60-juta
+[2024-09-22T15:18:24.994+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-30-juta
+[2024-09-22T15:18:24.996+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-30-juta
+[2024-09-22T15:18:24.998+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-30-juta
+[2024-09-22T15:18:25.000+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-30-juta
+[2024-09-22T15:18:25.010+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-50-juta
+[2024-09-22T15:18:25.010+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-50-juta
+[2024-09-22T15:18:25.012+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-50-juta
+[2024-09-22T15:18:25.013+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-50-juta
+[2024-09-22T15:22:11.150+0700] {local_task_job_runner.py:291} WARNING - Recorded pid 245736 does not match the current pid 245317
+[2024-09-22T15:22:11.152+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-09-22T15:22:11.155+0700] {process_utils.py:132} INFO - Sending 15 to group 245317. PIDs of all processes in the group: [245317]
+[2024-09-22T15:22:11.155+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 245317
+[2024-09-22T15:22:11.156+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-22T15:22:11.157+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-22T15:22:11.175+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/oto/oto_scrape.py", line 209, in oto_scrape
+    headers = {"User-Agent": random.choice(user_agents)}
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 649, in __exit__
+    self.shutdown(wait=True)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-09-22T15:22:11.182+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=scrap_oto_dag, task_id=scrape_oto, run_id=scheduled__2024-09-06T00:00:00+00:00, execution_date=20240906T000000, start_date=20240922T082208, end_date=20240922T082211
+[2024-09-22T15:22:11.248+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=245317, status='terminated', exitcode=2, started='15:18:23') (245317) terminated with exit code 2

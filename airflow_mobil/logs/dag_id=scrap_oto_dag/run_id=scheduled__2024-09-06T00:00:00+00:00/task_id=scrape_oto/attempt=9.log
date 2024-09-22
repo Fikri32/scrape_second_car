@@ -1,0 +1,27 @@
+[2024-09-22T16:15:47.462+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T16:15:47.492+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:15:47.500+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:15:47.501+0700] {taskinstance.py:2306} INFO - Starting attempt 9 of 8
+[2024-09-22T16:15:47.512+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-09-06 00:00:00+00:00
+[2024-09-22T16:15:47.517+0700] {standard_task_runner.py:64} INFO - Started process 250433 to run task
+[2024-09-22T16:15:47.520+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'scrape_oto', 'scheduled__2024-09-06T00:00:00+00:00', '--job-id', '268', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpoukc7lii']
+[2024-09-22T16:15:47.521+0700] {standard_task_runner.py:91} INFO - Job 268: Subtask scrape_oto
+[2024-09-22T16:15:47.572+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-22T16:15:47.761+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T00:00:00+00:00'
+[2024-09-22T16:15:47.762+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-22T16:15:48.269+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-30-juta
+[2024-09-22T16:15:48.272+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-30-juta
+[2024-09-22T16:15:48.275+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-30-juta
+[2024-09-22T16:15:48.276+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-30-juta
+[2024-09-22T16:15:48.281+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-60-juta
+[2024-09-22T16:15:48.281+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-60-juta
+[2024-09-22T16:15:48.282+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-60-juta
+[2024-09-22T16:15:48.282+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-60-juta
+[2024-09-22T16:15:48.285+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-50-juta
+[2024-09-22T16:15:48.290+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-50-juta
+[2024-09-22T16:15:48.291+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-50-juta
+[2024-09-22T16:15:48.293+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-50-juta
+[2024-09-22T16:15:48.298+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-40-juta
+[2024-09-22T16:15:48.301+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-40-juta
+[2024-09-22T16:15:48.302+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-40-juta
+[2024-09-22T16:15:48.306+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-40-juta

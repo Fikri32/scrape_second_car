@@ -1,0 +1,8 @@
+{
+  "python.analysis.extraPaths": [
+    "./scrape/script/oto",
+    "./scrape/script/mobil123",
+    "./spark_transform",
+    "./store_db"
+  ]
+}

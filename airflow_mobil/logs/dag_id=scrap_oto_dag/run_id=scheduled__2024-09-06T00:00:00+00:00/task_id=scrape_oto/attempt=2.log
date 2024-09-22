@@ -1,0 +1,34 @@
+[2024-09-22T15:15:41.435+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T15:15:41.463+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T15:15:41.471+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T15:15:41.471+0700] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-09-22T15:15:41.482+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-09-06 00:00:00+00:00
+[2024-09-22T15:15:41.488+0700] {standard_task_runner.py:64} INFO - Started process 243849 to run task
+[2024-09-22T15:15:41.490+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'scrape_oto', 'scheduled__2024-09-06T00:00:00+00:00', '--job-id', '255', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmp6eh50xou']
+[2024-09-22T15:15:41.491+0700] {standard_task_runner.py:91} INFO - Job 255: Subtask scrape_oto
+[2024-09-22T15:15:41.542+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-22T15:15:41.749+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T00:00:00+00:00'
+[2024-09-22T15:15:41.750+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-22T15:15:42.197+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-60-juta
+[2024-09-22T15:15:42.198+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-60-juta
+[2024-09-22T15:15:42.200+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-60-juta
+[2024-09-22T15:15:42.200+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-60-juta
+[2024-09-22T15:15:42.209+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-40-juta
+[2024-09-22T15:15:42.210+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-40-juta
+[2024-09-22T15:15:42.212+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-40-juta
+[2024-09-22T15:15:42.216+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-40-juta
+[2024-09-22T15:15:42.220+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-30-juta
+[2024-09-22T15:15:42.221+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-30-juta
+[2024-09-22T15:15:42.222+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-30-juta
+[2024-09-22T15:15:42.223+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-30-juta
+[2024-09-22T15:15:42.251+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-50-juta
+[2024-09-22T15:15:42.252+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-50-juta
+[2024-09-22T15:15:42.252+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-50-juta
+[2024-09-22T15:15:42.253+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-50-juta
+[2024-09-22T15:16:36.890+0700] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-09-22T15:16:36.891+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-09-22T15:16:36.894+0700] {process_utils.py:132} INFO - Sending 15 to group 243849. PIDs of all processes in the group: [243849]
+[2024-09-22T15:16:36.894+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 243849
+[2024-09-22T15:16:36.895+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-22T15:16:36.895+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-22T15:16:36.947+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=243849, status='terminated', exitcode=0, started='15:15:40') (243849) terminated with exit code 0

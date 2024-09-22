@@ -1,0 +1,32 @@
+[2024-08-31T19:45:43.448+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-31T19:45:43.596+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 manual__2024-08-31T12:45:42.892526+00:00 [queued]>
+[2024-08-31T19:45:43.606+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 manual__2024-08-31T12:45:42.892526+00:00 [queued]>
+[2024-08-31T19:45:43.606+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-31T19:45:43.622+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_mobil123> on 2024-08-31 12:45:42.892526+00:00
+[2024-08-31T19:45:43.629+0700] {standard_task_runner.py:64} INFO - Started process 19276 to run task
+[2024-08-31T19:45:43.633+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_mobil123', 'scrape_mobil123', 'manual__2024-08-31T12:45:42.892526+00:00', '--job-id', '147', '--raw', '--subdir', 'DAGS_FOLDER/mobil123/scrap_mobil123.py', '--cfg-path', '/tmp/tmpjiigc6zl']
+[2024-08-31T19:45:43.636+0700] {standard_task_runner.py:91} INFO - Job 147: Subtask scrape_mobil123
+[2024-08-31T19:45:43.698+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_mobil123.scrape_mobil123 manual__2024-08-31T12:45:42.892526+00:00 [running]> on host BrightHorizons.
+[2024-08-31T19:45:43.788+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_mobil123' AIRFLOW_CTX_TASK_ID='scrape_mobil123' AIRFLOW_CTX_EXECUTION_DATE='2024-08-31T12:45:42.892526+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-31T12:45:42.892526+00:00'
+[2024-08-31T19:45:43.789+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-31T19:45:43.804+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-31T19:45:43.804+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/mobil123/mobil123_scrape.py", line 182, in mobil123_scrape
+    repeat(base_url),
+NameError: name 'repeat' is not defined
+[2024-08-31T19:45:43.815+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=scrap_mobil123, task_id=scrape_mobil123, run_id=manual__2024-08-31T12:45:42.892526+00:00, execution_date=20240831T124542, start_date=20240831T124543, end_date=20240831T124543
+[2024-08-31T19:45:43.827+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 147 for task scrape_mobil123 (name 'repeat' is not defined; 19276)
+[2024-08-31T19:45:43.846+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-08-31T19:45:43.868+0700] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-31T19:45:43.870+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

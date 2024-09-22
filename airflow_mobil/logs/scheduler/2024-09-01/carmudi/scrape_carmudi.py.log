@@ -1,0 +1,399 @@
+[2024-09-01T07:00:08.417+0700] {processor.py:161} INFO - Started process (PID=221363) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:08.420+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:00:08.421+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.421+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:08.605+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:08.662+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.662+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:00:08.709+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.708+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:00:08.744+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.349 seconds
+[2024-09-01T07:00:38.999+0700] {processor.py:161} INFO - Started process (PID=221563) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:39.000+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:00:39.001+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.000+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:39.121+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:00:39.173+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.173+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:00:39.202+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.202+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:00:39.228+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.240 seconds
+[2024-09-01T07:01:09.445+0700] {processor.py:161} INFO - Started process (PID=221756) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:09.447+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:01:09.448+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.448+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:09.570+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:09.623+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.622+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:01:09.652+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.651+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:01:09.679+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.259 seconds
+[2024-09-01T07:01:39.928+0700] {processor.py:161} INFO - Started process (PID=222025) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:39.929+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:01:39.931+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:39.930+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:40.053+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:01:40.098+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:40.098+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:01:40.126+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:40.126+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:01:40.162+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.245 seconds
+[2024-09-01T07:02:10.380+0700] {processor.py:161} INFO - Started process (PID=222202) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:10.384+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:02:10.386+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.385+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:10.515+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:10.571+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.570+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:02:10.616+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.615+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:02:10.665+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.300 seconds
+[2024-09-01T07:02:40.977+0700] {processor.py:161} INFO - Started process (PID=222381) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:40.981+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:02:40.982+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:40.982+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:41.113+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:02:41.176+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:41.176+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:02:41.215+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:41.215+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:02:41.257+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.308 seconds
+[2024-09-01T07:03:11.494+0700] {processor.py:161} INFO - Started process (PID=222559) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:11.499+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:03:11.503+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.502+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:11.684+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:11.746+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.746+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:03:11.781+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.781+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:03:11.818+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.337 seconds
+[2024-09-01T07:03:42.035+0700] {processor.py:161} INFO - Started process (PID=222825) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:42.040+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:03:42.042+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.042+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:42.183+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:03:42.252+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.251+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:03:42.284+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.283+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:03:42.329+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.309 seconds
+[2024-09-01T07:04:12.600+0700] {processor.py:161} INFO - Started process (PID=222991) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:12.603+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:04:12.605+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.604+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:12.709+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:12.754+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.754+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:04:12.790+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.790+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:04:12.829+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.245 seconds
+[2024-09-01T07:04:42.976+0700] {processor.py:161} INFO - Started process (PID=223157) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:42.980+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:04:42.981+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:42.981+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:43.086+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:04:43.131+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:43.130+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:04:43.194+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:43.194+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:04:43.253+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.292 seconds
+[2024-09-01T07:05:13.326+0700] {processor.py:161} INFO - Started process (PID=223325) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:13.330+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:05:13.334+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.332+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:13.439+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:13.478+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.478+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:05:13.507+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.507+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:05:13.532+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.219 seconds
+[2024-09-01T07:05:43.794+0700] {processor.py:161} INFO - Started process (PID=223490) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:43.798+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:05:43.799+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:43.798+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:43.921+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:05:43.988+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:43.987+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:05:44.020+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:44.019+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:05:44.051+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.272 seconds
+[2024-09-01T07:06:14.111+0700] {processor.py:161} INFO - Started process (PID=223845) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:14.113+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:06:14.115+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.114+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:14.221+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:14.260+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.259+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:06:14.295+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.294+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:06:14.342+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.249 seconds
+[2024-09-01T07:06:44.593+0700] {processor.py:161} INFO - Started process (PID=224220) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:44.595+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:06:44.597+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:44.596+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:44.714+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:06:44.808+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:44.808+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:06:44.843+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:44.843+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:06:44.870+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.293 seconds
+[2024-09-01T07:07:15.307+0700] {processor.py:161} INFO - Started process (PID=224386) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:15.308+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:07:15.309+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.308+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:15.393+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:15.434+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.434+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:07:15.463+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.463+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:07:15.494+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.199 seconds
+[2024-09-01T07:07:45.690+0700] {processor.py:161} INFO - Started process (PID=224551) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:45.692+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:07:45.693+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.692+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:45.799+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:07:45.836+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.836+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:07:45.867+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.867+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:07:45.892+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.218 seconds
+[2024-09-01T07:08:16.088+0700] {processor.py:161} INFO - Started process (PID=224719) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:16.089+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:08:16.090+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.089+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:16.192+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:16.233+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.232+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:08:16.260+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.260+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:08:16.289+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.215 seconds
+[2024-09-01T07:08:46.515+0700] {processor.py:161} INFO - Started process (PID=224971) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:46.517+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:08:46.519+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.518+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:46.643+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:08:46.697+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.697+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:08:46.728+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.728+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:08:46.761+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.276 seconds
+[2024-09-01T07:09:17.066+0700] {processor.py:161} INFO - Started process (PID=225132) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:17.069+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:09:17.072+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.071+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:17.206+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:17.261+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.260+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:09:17.301+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.301+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:09:17.340+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.294 seconds
+[2024-09-01T07:09:47.621+0700] {processor.py:161} INFO - Started process (PID=225285) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:47.624+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:09:47.626+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.625+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:47.767+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:09:47.827+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.827+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:09:47.870+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.869+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:09:47.918+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.312 seconds
+[2024-09-01T07:10:18.232+0700] {processor.py:161} INFO - Started process (PID=225441) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:18.236+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:10:18.238+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.237+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:18.349+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:18.403+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.402+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:10:18.441+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.441+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:10:18.480+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.265 seconds
+[2024-09-01T07:10:48.762+0700] {processor.py:161} INFO - Started process (PID=225594) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:48.767+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:10:48.768+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:48.768+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:48.895+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:10:48.950+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:48.950+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:10:48.996+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:48.996+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:10:49.046+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.306 seconds
+[2024-09-01T07:11:19.349+0700] {processor.py:161} INFO - Started process (PID=225747) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:19.352+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:11:19.355+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.354+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:19.461+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:19.508+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.508+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:11:19.539+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.538+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:11:19.577+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.241 seconds
+[2024-09-01T07:11:49.854+0700] {processor.py:161} INFO - Started process (PID=225903) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:49.858+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:11:49.859+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:49.859+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:49.984+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:11:50.043+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:50.043+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:11:50.086+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:50.085+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:11:50.130+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.289 seconds
+[2024-09-01T07:12:20.435+0700] {processor.py:161} INFO - Started process (PID=226056) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:20.439+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:12:20.441+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.440+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:20.569+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:20.628+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.627+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:12:20.660+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.660+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:12:20.702+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.283 seconds
+[2024-09-01T07:12:51.749+0700] {processor.py:161} INFO - Started process (PID=226214) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:51.753+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:12:51.755+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.755+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:51.849+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:12:51.904+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.903+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:12:51.944+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.944+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:12:51.981+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.246 seconds
+[2024-09-01T07:13:22.305+0700] {processor.py:161} INFO - Started process (PID=226367) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:22.308+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:13:22.310+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.310+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:22.407+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:22.445+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.444+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:13:22.479+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.479+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:13:22.517+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.222 seconds
+[2024-09-01T07:13:52.900+0700] {processor.py:161} INFO - Started process (PID=226522) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:52.907+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:13:52.909+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:52.908+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:53.057+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:13:53.154+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:53.153+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:13:53.217+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:53.216+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:13:53.276+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.411 seconds
+[2024-09-01T07:14:23.582+0700] {processor.py:161} INFO - Started process (PID=226678) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:23.586+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:14:23.588+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.587+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:23.703+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:23.755+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.755+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:14:23.796+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.795+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:14:23.838+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.274 seconds
+[2024-09-01T07:14:54.114+0700] {processor.py:161} INFO - Started process (PID=226832) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:54.118+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:14:54.119+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.119+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:54.214+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:14:54.273+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.272+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:14:54.307+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.307+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:14:54.349+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.252 seconds
+[2024-09-01T07:15:24.631+0700] {processor.py:161} INFO - Started process (PID=226989) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:24.635+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:15:24.636+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.635+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:24.740+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:24.796+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.796+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:15:24.835+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.834+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:15:24.897+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.281 seconds
+[2024-09-01T07:15:55.215+0700] {processor.py:161} INFO - Started process (PID=227142) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:55.232+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:15:55.244+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.236+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:55.365+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:15:55.418+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.417+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:15:55.451+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.451+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:15:55.508+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.320 seconds
+[2024-09-01T07:16:25.793+0700] {processor.py:161} INFO - Started process (PID=227297) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:25.797+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:16:25.798+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:25.798+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:25.899+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:25.969+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:25.969+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:16:26.004+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:26.004+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:16:26.050+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.277 seconds
+[2024-09-01T07:16:56.167+0700] {processor.py:161} INFO - Started process (PID=227450) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:56.170+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:16:56.172+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.171+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:56.278+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:16:56.350+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.349+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:16:56.390+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.389+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:16:56.431+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.278 seconds
+[2024-09-01T07:17:26.621+0700] {processor.py:161} INFO - Started process (PID=227607) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:26.625+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:17:26.626+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.626+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:26.785+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:26.838+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.837+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:17:26.866+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.866+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:17:26.906+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.307 seconds
+[2024-09-01T07:17:57.193+0700] {processor.py:161} INFO - Started process (PID=227761) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:57.197+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:17:57.199+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.198+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:57.300+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:17:57.352+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.351+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:17:57.391+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.391+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:17:57.436+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.255 seconds
+[2024-09-01T07:18:27.732+0700] {processor.py:161} INFO - Started process (PID=227914) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:27.736+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:18:27.738+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.737+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:27.853+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:27.903+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.902+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:18:27.944+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.944+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:18:27.991+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.276 seconds
+[2024-09-01T07:18:58.307+0700] {processor.py:161} INFO - Started process (PID=228069) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:58.312+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:18:58.314+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.313+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:58.412+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:18:58.468+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.467+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:18:58.500+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.499+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:18:58.537+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.248 seconds
+[2024-09-01T07:19:28.658+0700] {processor.py:161} INFO - Started process (PID=228221) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:28.663+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:19:28.665+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.664+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:28.783+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:28.844+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.844+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:19:28.877+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.876+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:19:28.918+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.288 seconds
+[2024-09-01T07:19:59.223+0700] {processor.py:161} INFO - Started process (PID=228374) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:59.224+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:19:59.226+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.225+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:59.333+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:19:59.386+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.386+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:19:59.417+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.417+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:19:59.463+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.252 seconds
+[2024-09-01T07:20:30.485+0700] {processor.py:161} INFO - Started process (PID=228532) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:20:30.492+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:20:30.494+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.493+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:20:30.614+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:20:30.668+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.668+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:20:30.700+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.700+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:20:30.750+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.282 seconds
+[2024-09-01T07:21:01.019+0700] {processor.py:161} INFO - Started process (PID=228686) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:01.021+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:21:01.022+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.022+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:01.149+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:01.205+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.205+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:21:01.243+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.243+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:21:01.281+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.275 seconds
+[2024-09-01T07:21:31.588+0700] {processor.py:161} INFO - Started process (PID=228841) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:31.593+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:21:31.594+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.594+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:31.710+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:21:31.771+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.771+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:21:31.806+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.806+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:21:31.855+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.283 seconds
+[2024-09-01T07:22:02.853+0700] {processor.py:161} INFO - Started process (PID=228997) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:02.854+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:22:02.855+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:02.855+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:02.971+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:03.024+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:03.024+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:22:03.091+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:03.090+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:22:03.143+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.303 seconds
+[2024-09-01T07:22:33.250+0700] {processor.py:161} INFO - Started process (PID=229149) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:33.252+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:22:33.253+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.253+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:33.357+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:22:33.402+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.401+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:22:33.442+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.442+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:22:33.486+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.251 seconds
+[2024-09-01T07:23:03.785+0700] {processor.py:161} INFO - Started process (PID=229304) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:03.789+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:23:03.791+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:03.790+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:03.955+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:04.026+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:04.025+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:23:04.065+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:04.065+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:23:04.111+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.342 seconds
+[2024-09-01T07:23:35.070+0700] {processor.py:161} INFO - Started process (PID=229459) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:35.075+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:23:35.077+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.076+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:35.203+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:23:35.251+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.250+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:23:35.293+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.293+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:23:35.334+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.281 seconds
+[2024-09-01T07:24:05.549+0700] {processor.py:161} INFO - Started process (PID=229615) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:05.551+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:24:05.553+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.552+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:05.686+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:05.754+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.754+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:24:05.784+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.784+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:24:05.823+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.288 seconds
+[2024-09-01T07:24:36.125+0700] {processor.py:161} INFO - Started process (PID=229768) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:36.129+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:24:36.130+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.129+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:36.230+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:24:36.297+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.296+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:24:36.348+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.348+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:24:36.390+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.278 seconds
+[2024-09-01T07:25:06.703+0700] {processor.py:161} INFO - Started process (PID=229926) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:06.708+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:25:06.711+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.710+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:06.828+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:06.884+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.883+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:25:06.916+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.915+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:25:06.963+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.276 seconds
+[2024-09-01T07:25:37.244+0700] {processor.py:161} INFO - Started process (PID=230082) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:37.247+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:25:37.250+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.249+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:37.353+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:25:37.404+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.403+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:25:37.440+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.440+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:25:37.500+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.270 seconds
+[2024-09-01T07:26:07.612+0700] {processor.py:161} INFO - Started process (PID=230234) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:07.614+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:26:07.616+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.615+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:07.712+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:07.750+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.749+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:26:07.781+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.781+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:26:07.809+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.219 seconds
+[2024-09-01T07:26:38.113+0700] {processor.py:161} INFO - Started process (PID=230371) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:38.119+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:26:38.122+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.121+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:38.227+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:26:38.310+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.309+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:26:38.351+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.351+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:26:38.437+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.338 seconds
+[2024-09-01T07:27:09.021+0700] {processor.py:161} INFO - Started process (PID=230525) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:09.025+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:27:09.027+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.026+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:09.186+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:09.238+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.237+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:27:09.272+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.271+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:27:09.307+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.308 seconds
+[2024-09-01T07:27:40.292+0700] {processor.py:161} INFO - Started process (PID=230685) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:40.295+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:27:40.298+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.297+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:40.405+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:27:40.519+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.518+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:27:40.554+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.554+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:27:40.582+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.310 seconds
+[2024-09-01T07:28:11.129+0700] {processor.py:161} INFO - Started process (PID=230840) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:11.133+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:28:11.135+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.134+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:11.275+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:11.336+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.336+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:28:11.383+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.382+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:28:11.424+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.323 seconds
+[2024-09-01T07:28:41.995+0700] {processor.py:161} INFO - Started process (PID=231008) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:42.002+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py for tasks to queue
+[2024-09-01T07:28:42.004+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.003+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:42.143+0700] {processor.py:840} INFO - DAG(s) 'scrap_carmudi' retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py
+[2024-09-01T07:28:42.232+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.232+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:28:42.289+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.289+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_carmudi to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:28:42.336+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrape_carmudi.py took 0.373 seconds

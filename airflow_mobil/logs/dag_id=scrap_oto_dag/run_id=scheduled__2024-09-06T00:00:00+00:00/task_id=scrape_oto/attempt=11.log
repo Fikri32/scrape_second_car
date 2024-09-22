@@ -1,0 +1,63 @@
+[2024-09-22T16:22:12.558+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-22T16:22:12.592+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:22:12.601+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [queued]>
+[2024-09-22T16:22:12.601+0700] {taskinstance.py:2306} INFO - Starting attempt 11 of 8
+[2024-09-22T16:22:12.615+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-09-06 00:00:00+00:00
+[2024-09-22T16:22:12.621+0700] {standard_task_runner.py:64} INFO - Started process 251661 to run task
+[2024-09-22T16:22:12.624+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'scrape_oto', 'scheduled__2024-09-06T00:00:00+00:00', '--job-id', '274', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmp35ou189d']
+[2024-09-22T16:22:12.626+0700] {standard_task_runner.py:91} INFO - Job 274: Subtask scrape_oto
+[2024-09-22T16:22:12.684+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.scrape_oto scheduled__2024-09-06T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-09-22T16:22:12.866+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='11' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T00:00:00+00:00'
+[2024-09-22T16:22:12.867+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-22T16:22:13.387+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-40-juta
+[2024-09-22T16:22:13.388+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-40-juta
+[2024-09-22T16:22:13.390+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-40-juta
+[2024-09-22T16:22:13.392+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-40-juta
+[2024-09-22T16:22:13.394+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-50-juta
+[2024-09-22T16:22:13.395+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-50-juta
+[2024-09-22T16:22:13.400+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-50-juta
+[2024-09-22T16:22:13.400+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-50-juta
+[2024-09-22T16:22:13.424+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-30-juta
+[2024-09-22T16:22:13.425+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-30-juta
+[2024-09-22T16:22:13.426+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-30-juta
+[2024-09-22T16:22:13.426+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-30-juta
+[2024-09-22T16:22:13.434+0700] {logging_mixin.py:188} INFO - Fetching page 1 for price category: dibawah-60-juta
+[2024-09-22T16:22:13.434+0700] {logging_mixin.py:188} INFO - Fetching page 2 for price category: dibawah-60-juta
+[2024-09-22T16:22:13.438+0700] {logging_mixin.py:188} INFO - Fetching page 3 for price category: dibawah-60-juta
+[2024-09-22T16:22:13.441+0700] {logging_mixin.py:188} INFO - Fetching page 4 for price category: dibawah-60-juta
+[2024-09-22T16:27:12.199+0700] {conn.py:380} INFO - <BrokerConnection node_id=0 host=BrightHorizons.:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to BrightHorizons.:9092 [('127.0.1.1', 9092) IPv4]
+[2024-09-22T16:27:12.200+0700] {conn.py:410} INFO - <BrokerConnection node_id=0 host=BrightHorizons.:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+[2024-09-22T16:27:12.201+0700] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2024-09-22T16:46:32.879+0700] {local_task_job_runner.py:291} WARNING - Recorded pid 254036 does not match the current pid 251661
+[2024-09-22T16:46:32.880+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-09-22T16:46:32.883+0700] {process_utils.py:132} INFO - Sending 15 to group 251661. PIDs of all processes in the group: [251661]
+[2024-09-22T16:46:32.884+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 251661
+[2024-09-22T16:46:32.885+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-22T16:46:32.886+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-22T16:46:32.903+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/oto/oto_scrape.py", line 214, in oto_scrape
+    with ThreadPoolExecutor(max_workers=4) as executor:
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 649, in __exit__
+    self.shutdown(wait=True)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-09-22T16:46:32.908+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=scrap_oto_dag, task_id=scrape_oto, run_id=scheduled__2024-09-06T00:00:00+00:00, execution_date=20240906T000000, start_date=20240922T094628, end_date=20240922T094632
+[2024-09-22T16:46:32.977+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=251661, status='terminated', exitcode=2, started='16:22:11') (251661) terminated with exit code 2

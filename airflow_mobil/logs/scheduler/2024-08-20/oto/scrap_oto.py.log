@@ -1,0 +1,14 @@
+[2024-08-20T08:12:43.573+0700] {processor.py:161} INFO - Started process (PID=84210) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:12:43.576+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-20T08:12:43.582+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:12:43.579+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:12:44.008+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:12:44.188+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:12:44.188+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-20T08:12:44.348+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:12:44.338+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to 2024-08-20 00:00:00+00:00, run_after=2024-08-21 00:00:00+00:00
+[2024-08-20T08:12:44.470+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.916 seconds
+[2024-08-20T08:13:14.914+0700] {processor.py:161} INFO - Started process (PID=84400) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:13:14.917+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-20T08:13:14.932+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:13:14.929+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:13:15.194+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-20T08:13:15.263+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:13:15.262+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-20T08:13:15.346+0700] {logging_mixin.py:188} INFO - [2024-08-20T08:13:15.345+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to 2024-08-20 00:00:00+00:00, run_after=2024-08-21 00:00:00+00:00
+[2024-08-20T08:13:15.395+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.508 seconds

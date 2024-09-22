@@ -1,0 +1,9 @@
+{
+    "postgres": {
+        "host": "172.22.37.109",
+        "port": "5432",
+        "database": "scrape_db",
+        "user": "scrape_admin",
+        "password": "admin123"
+    }
+}

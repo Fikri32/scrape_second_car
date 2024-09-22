@@ -1,0 +1,37 @@
+[2024-09-01T01:25:34.801+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-01T01:25:34.843+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_oto_dag.transform_data manual__2024-08-31T18:24:53.160308+00:00 [queued]>
+[2024-09-01T01:25:34.857+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_oto_dag.transform_data manual__2024-08-31T18:24:53.160308+00:00 [queued]>
+[2024-09-01T01:25:34.857+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-09-01T01:25:34.974+0700] {taskinstance.py:2330} INFO - Executing <Task(SparkSubmitOperator): transform_data> on 2024-08-31 18:24:53.160308+00:00
+[2024-09-01T01:25:34.980+0700] {standard_task_runner.py:64} INFO - Started process 114693 to run task
+[2024-09-01T01:25:34.983+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_oto_dag', 'transform_data', 'manual__2024-08-31T18:24:53.160308+00:00', '--job-id', '167', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmp5cirums7']
+[2024-09-01T01:25:34.986+0700] {standard_task_runner.py:91} INFO - Job 167: Subtask transform_data
+[2024-09-01T01:25:35.056+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_oto_dag.transform_data manual__2024-08-31T18:24:53.160308+00:00 [running]> on host BrightHorizons.
+[2024-09-01T01:25:35.182+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_oto_dag' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-31T18:24:53.160308+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-31T18:24:53.160308+00:00'
+[2024-09-01T01:25:35.183+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-01T01:25:35.212+0700] {base.py:84} INFO - Using connection ID 'spark_local' for task execution.
+[2024-09-01T01:25:35.214+0700] {spark_submit.py:403} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/transform.py
+[2024-09-01T01:25:38.158+0700] {spark_submit.py:579} INFO - 24/09/01 01:25:38 WARN Utils: Your hostname, BrightHorizons resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2024-09-01T01:25:38.161+0700] {spark_submit.py:579} INFO - 24/09/01 01:25:38 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-09-01T01:25:38.976+0700] {spark_submit.py:579} INFO - python3: can't open file '/home/miracle/mobil/spark/transform.py': [Errno 2] No such file or directory
+[2024-09-01T01:25:38.995+0700] {spark_submit.py:579} INFO - 24/09/01 01:25:38 INFO ShutdownHookManager: Shutdown hook called
+[2024-09-01T01:25:38.996+0700] {spark_submit.py:579} INFO - 24/09/01 01:25:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-1829fb6d-95e7-4310-acc6-8a63944750a2
+[2024-09-01T01:25:39.041+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-01T01:25:39.055+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 174, in execute
+    self._hook.submit(self.application)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 505, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/transform.py. Error code is: 2.
+[2024-09-01T01:25:39.060+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=scrap_oto_dag, task_id=transform_data, run_id=manual__2024-08-31T18:24:53.160308+00:00, execution_date=20240831T182453, start_date=20240831T182534, end_date=20240831T182539
+[2024-09-01T01:25:39.076+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 167 for task transform_data (Cannot execute: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/transform.py. Error code is: 2.; 114693)
+[2024-09-01T01:25:39.095+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-09-01T01:25:39.123+0700] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-01T01:25:39.125+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

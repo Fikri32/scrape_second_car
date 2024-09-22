@@ -1,0 +1,28 @@
+[2024-08-31T20:07:58.354+0700] {processor.py:161} INFO - Started process (PID=26078) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:07:58.354+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py for tasks to queue
+[2024-08-31T20:07:58.355+0700] {logging_mixin.py:188} INFO - [2024-08-31T20:07:58.355+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:07:58.359+0700] {logging_mixin.py:188} INFO - [2024-08-31T20:07:58.358+0700] {dagbag.py:355} ERROR - Failed to import: /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py", line 22, in <module>
+    from carmudi_scrape import carmudi_scrape
+ModuleNotFoundError: No module named 'carmudi_scrape'
+[2024-08-31T20:07:58.360+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:07:58.383+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py took 0.034 seconds
+[2024-08-31T20:08:28.606+0700] {processor.py:161} INFO - Started process (PID=26216) to work on /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:08:28.608+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py for tasks to queue
+[2024-08-31T20:08:28.609+0700] {logging_mixin.py:188} INFO - [2024-08-31T20:08:28.609+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:08:28.611+0700] {logging_mixin.py:188} INFO - [2024-08-31T20:08:28.611+0700] {dagbag.py:355} ERROR - Failed to import: /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py", line 22, in <module>
+    from carmudi_scrape import carmudi_scrape
+ModuleNotFoundError: No module named 'carmudi_scrape'
+[2024-08-31T20:08:28.611+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py
+[2024-08-31T20:08:28.635+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/carmudi/scrap_mobil123.py took 0.034 seconds

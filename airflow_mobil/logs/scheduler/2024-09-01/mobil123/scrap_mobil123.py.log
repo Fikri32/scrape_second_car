@@ -1,0 +1,399 @@
+[2024-09-01T07:00:08.442+0700] {processor.py:161} INFO - Started process (PID=221366) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:08.448+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:00:08.451+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.450+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:08.636+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:08.703+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.703+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:00:08.736+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:08.735+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:00:08.779+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.362 seconds
+[2024-09-01T07:00:39.008+0700] {processor.py:161} INFO - Started process (PID=221566) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:39.010+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:00:39.012+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.011+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:39.130+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:00:39.178+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.177+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:00:39.204+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:00:39.204+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:00:39.230+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.231 seconds
+[2024-09-01T07:01:09.454+0700] {processor.py:161} INFO - Started process (PID=221759) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:09.458+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:01:09.461+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.460+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:09.581+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:09.633+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.633+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:01:09.660+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:09.660+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:01:09.689+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.249 seconds
+[2024-09-01T07:01:39.938+0700] {processor.py:161} INFO - Started process (PID=222028) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:39.939+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:01:39.940+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:39.940+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:40.059+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:01:40.099+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:40.099+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:01:40.126+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:01:40.126+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:01:40.162+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.235 seconds
+[2024-09-01T07:02:10.392+0700] {processor.py:161} INFO - Started process (PID=222205) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:10.394+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:02:10.396+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.395+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:10.529+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:10.585+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.585+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:02:10.632+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:10.631+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:02:10.680+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.300 seconds
+[2024-09-01T07:02:40.985+0700] {processor.py:161} INFO - Started process (PID=222384) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:40.987+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:02:40.989+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:40.988+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:41.113+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:02:41.178+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:41.178+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:02:41.215+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:02:41.215+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:02:41.253+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.287 seconds
+[2024-09-01T07:03:11.513+0700] {processor.py:161} INFO - Started process (PID=222562) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:11.516+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:03:11.520+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.519+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:11.688+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:11.747+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.747+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:03:11.778+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:11.778+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:03:11.814+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.320 seconds
+[2024-09-01T07:03:42.051+0700] {processor.py:161} INFO - Started process (PID=222828) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:42.054+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:03:42.055+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.055+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:42.194+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:03:42.261+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.260+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:03:42.298+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:03:42.298+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:03:42.338+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.305 seconds
+[2024-09-01T07:04:12.607+0700] {processor.py:161} INFO - Started process (PID=222994) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:12.609+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:04:12.611+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.610+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:12.718+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:12.766+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.765+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:04:12.795+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:12.794+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:04:12.841+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.249 seconds
+[2024-09-01T07:04:42.982+0700] {processor.py:161} INFO - Started process (PID=223160) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:42.984+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:04:42.985+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:42.985+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:43.086+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:04:43.134+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:43.134+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:04:43.179+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:04:43.179+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:04:43.255+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.285 seconds
+[2024-09-01T07:05:13.344+0700] {processor.py:161} INFO - Started process (PID=223328) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:13.348+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:05:13.351+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.349+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:13.440+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:13.478+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.478+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:05:13.508+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:13.508+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:05:13.535+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.211 seconds
+[2024-09-01T07:05:43.805+0700] {processor.py:161} INFO - Started process (PID=223493) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:43.809+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:05:43.811+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:43.810+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:43.930+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:05:43.996+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:43.996+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:05:44.030+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:05:44.029+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:05:44.059+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.268 seconds
+[2024-09-01T07:06:14.119+0700] {processor.py:161} INFO - Started process (PID=223848) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:14.121+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:06:14.123+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.122+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:14.230+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:14.267+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.266+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:06:14.311+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:14.310+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:06:14.352+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.249 seconds
+[2024-09-01T07:06:44.909+0700] {processor.py:161} INFO - Started process (PID=224243) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:44.911+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:06:44.911+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:44.911+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:44.995+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:06:45.041+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:45.041+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:06:45.072+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:06:45.071+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:06:45.113+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.213 seconds
+[2024-09-01T07:07:15.315+0700] {processor.py:161} INFO - Started process (PID=224389) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:15.317+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:07:15.319+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.318+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:15.405+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:15.442+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.441+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:07:15.470+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:15.469+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:07:15.498+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.193 seconds
+[2024-09-01T07:07:45.696+0700] {processor.py:161} INFO - Started process (PID=224554) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:45.697+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:07:45.699+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.698+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:45.805+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:07:45.843+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.843+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:07:45.874+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:07:45.874+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:07:45.902+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.219 seconds
+[2024-09-01T07:08:16.094+0700] {processor.py:161} INFO - Started process (PID=224722) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:16.096+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:08:16.098+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.097+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:16.200+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:16.241+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.241+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:08:16.270+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:16.270+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:08:16.297+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.212 seconds
+[2024-09-01T07:08:46.523+0700] {processor.py:161} INFO - Started process (PID=224974) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:46.525+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:08:46.527+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.526+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:46.651+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:08:46.700+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.700+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:08:46.734+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:08:46.734+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:08:46.768+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.258 seconds
+[2024-09-01T07:09:17.089+0700] {processor.py:161} INFO - Started process (PID=225135) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:17.091+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:09:17.093+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.092+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:17.218+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:17.267+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.266+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:09:17.300+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:17.300+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:09:17.348+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.282 seconds
+[2024-09-01T07:09:47.634+0700] {processor.py:161} INFO - Started process (PID=225288) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:47.637+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:09:47.639+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.638+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:47.784+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:09:47.843+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.843+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:09:47.886+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:09:47.886+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:09:47.934+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.313 seconds
+[2024-09-01T07:10:18.238+0700] {processor.py:161} INFO - Started process (PID=225444) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:18.240+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:10:18.242+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.242+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:18.355+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:18.401+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.401+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:10:18.436+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:18.436+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:10:18.478+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.253 seconds
+[2024-09-01T07:10:48.773+0700] {processor.py:161} INFO - Started process (PID=225597) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:48.776+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:10:48.778+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:48.777+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:48.911+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:10:48.978+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:48.978+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:10:49.014+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:10:49.014+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:10:49.059+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.300 seconds
+[2024-09-01T07:11:19.357+0700] {processor.py:161} INFO - Started process (PID=225750) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:19.359+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:11:19.360+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.360+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:19.464+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:19.509+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.508+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:11:19.543+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:19.543+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:11:19.584+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.237 seconds
+[2024-09-01T07:11:49.869+0700] {processor.py:161} INFO - Started process (PID=225906) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:49.871+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:11:49.873+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:49.873+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:50.004+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:11:50.065+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:50.064+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:11:50.103+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:11:50.103+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:11:50.147+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.294 seconds
+[2024-09-01T07:12:20.450+0700] {processor.py:161} INFO - Started process (PID=226059) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:20.452+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:12:20.454+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.453+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:20.575+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:20.630+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.630+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:12:20.662+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:20.662+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:12:20.708+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.277 seconds
+[2024-09-01T07:12:51.758+0700] {processor.py:161} INFO - Started process (PID=226217) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:51.761+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:12:51.762+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.762+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:51.861+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:12:51.920+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.919+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:12:51.954+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:12:51.953+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:12:51.991+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.247 seconds
+[2024-09-01T07:13:22.311+0700] {processor.py:161} INFO - Started process (PID=226370) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:22.314+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:13:22.316+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.315+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:22.412+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:22.458+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.457+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:13:22.493+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:22.492+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:13:22.526+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.224 seconds
+[2024-09-01T07:13:52.925+0700] {processor.py:161} INFO - Started process (PID=226525) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:52.929+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:13:52.932+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:52.931+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:53.095+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:13:53.176+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:53.175+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:13:53.225+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:13:53.225+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:13:53.286+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.387 seconds
+[2024-09-01T07:14:23.596+0700] {processor.py:161} INFO - Started process (PID=226681) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:23.598+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:14:23.600+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.599+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:23.710+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:23.754+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.754+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:14:23.787+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:23.786+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:14:23.829+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.246 seconds
+[2024-09-01T07:14:54.123+0700] {processor.py:161} INFO - Started process (PID=226835) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:54.126+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:14:54.127+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.127+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:54.243+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:14:54.308+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.308+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:14:54.351+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:14:54.350+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:14:54.397+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.287 seconds
+[2024-09-01T07:15:24.643+0700] {processor.py:161} INFO - Started process (PID=226992) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:24.646+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:15:24.647+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.647+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:24.746+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:24.801+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.800+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:15:24.844+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:24.844+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:15:24.901+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.271 seconds
+[2024-09-01T07:15:55.237+0700] {processor.py:161} INFO - Started process (PID=227145) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:55.248+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:15:55.250+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.249+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:55.374+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:15:55.423+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.423+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:15:55.453+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:15:55.452+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:15:55.504+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.297 seconds
+[2024-09-01T07:16:25.802+0700] {processor.py:161} INFO - Started process (PID=227300) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:25.805+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:16:25.807+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:25.806+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:25.914+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:25.978+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:25.978+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:16:26.020+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:26.019+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:16:26.067+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.279 seconds
+[2024-09-01T07:16:56.177+0700] {processor.py:161} INFO - Started process (PID=227453) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:56.179+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:16:56.182+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.180+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:56.283+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:16:56.349+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.349+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:16:56.382+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:16:56.381+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:16:56.427+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.261 seconds
+[2024-09-01T07:17:26.640+0700] {processor.py:161} INFO - Started process (PID=227610) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:26.642+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:17:26.644+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.643+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:26.804+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:26.853+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.853+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:17:26.886+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:26.886+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:17:26.935+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.315 seconds
+[2024-09-01T07:17:57.206+0700] {processor.py:161} INFO - Started process (PID=227764) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:57.209+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:17:57.212+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.211+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:57.309+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:17:57.358+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.358+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:17:57.400+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:17:57.400+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:17:57.450+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.257 seconds
+[2024-09-01T07:18:27.739+0700] {processor.py:161} INFO - Started process (PID=227917) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:27.742+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:18:27.744+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.743+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:27.854+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:27.903+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.903+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:18:27.941+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:27.941+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:18:27.980+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.254 seconds
+[2024-09-01T07:18:58.318+0700] {processor.py:161} INFO - Started process (PID=228072) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:58.320+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:18:58.322+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.322+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:58.415+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:18:58.468+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.468+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:18:58.502+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:18:58.502+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:18:58.541+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.236 seconds
+[2024-09-01T07:19:28.681+0700] {processor.py:161} INFO - Started process (PID=228224) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:28.683+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:19:28.685+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.685+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:28.796+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:28.854+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.853+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:19:28.893+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:28.893+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:19:28.934+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.279 seconds
+[2024-09-01T07:19:59.231+0700] {processor.py:161} INFO - Started process (PID=228377) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:59.232+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:19:59.233+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.232+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:59.334+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:19:59.386+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.385+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:19:59.417+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:19:59.417+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:19:59.459+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.239 seconds
+[2024-09-01T07:20:30.500+0700] {processor.py:161} INFO - Started process (PID=228535) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:20:30.503+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:20:30.505+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.504+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:20:30.614+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:20:30.668+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.667+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:20:30.700+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:20:30.699+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:20:30.754+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.272 seconds
+[2024-09-01T07:21:01.031+0700] {processor.py:161} INFO - Started process (PID=228689) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:01.032+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:21:01.034+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.033+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:01.161+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:01.215+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.214+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:21:01.255+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:01.254+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:21:01.288+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.270 seconds
+[2024-09-01T07:21:31.605+0700] {processor.py:161} INFO - Started process (PID=228844) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:31.608+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:21:31.609+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.609+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:31.714+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:21:31.772+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.772+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:21:31.806+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:21:31.806+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:21:31.854+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.267 seconds
+[2024-09-01T07:22:02.861+0700] {processor.py:161} INFO - Started process (PID=229000) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:02.863+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:22:02.866+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:02.865+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:02.980+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:03.038+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:03.036+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:22:03.098+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:03.097+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:22:03.156+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.306 seconds
+[2024-09-01T07:22:33.264+0700] {processor.py:161} INFO - Started process (PID=229152) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:33.267+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:22:33.268+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.268+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:33.374+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:22:33.425+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.424+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:22:33.466+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:22:33.466+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:22:33.521+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.270 seconds
+[2024-09-01T07:23:03.805+0700] {processor.py:161} INFO - Started process (PID=229307) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:03.818+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:23:03.820+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:03.819+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:03.959+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:04.027+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:04.027+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:23:04.065+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:04.065+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:23:04.111+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.328 seconds
+[2024-09-01T07:23:35.086+0700] {processor.py:161} INFO - Started process (PID=229463) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:35.090+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:23:35.093+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.091+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:35.215+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:23:35.261+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.260+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:23:35.302+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:23:35.302+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:23:35.343+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.277 seconds
+[2024-09-01T07:24:05.563+0700] {processor.py:161} INFO - Started process (PID=229618) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:05.566+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:24:05.567+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.567+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:05.735+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:05.783+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.783+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:24:05.817+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:05.817+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:24:05.850+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.299 seconds
+[2024-09-01T07:24:36.137+0700] {processor.py:161} INFO - Started process (PID=229771) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:36.141+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:24:36.144+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.143+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:36.255+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:24:36.324+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.323+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:24:36.365+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:24:36.364+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:24:36.404+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.278 seconds
+[2024-09-01T07:25:06.716+0700] {processor.py:161} INFO - Started process (PID=229929) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:06.721+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:25:06.726+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.724+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:06.845+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:06.897+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.896+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:25:06.931+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:06.930+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:25:06.976+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.278 seconds
+[2024-09-01T07:25:37.259+0700] {processor.py:161} INFO - Started process (PID=230085) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:37.262+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:25:37.263+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.262+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:37.365+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:25:37.410+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.409+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:25:37.441+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:25:37.440+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:25:37.498+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.256 seconds
+[2024-09-01T07:26:07.622+0700] {processor.py:161} INFO - Started process (PID=230237) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:07.624+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:26:07.625+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.625+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:07.713+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:07.763+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.763+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:26:07.790+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:07.790+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:26:07.819+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.210 seconds
+[2024-09-01T07:26:38.525+0700] {processor.py:161} INFO - Started process (PID=230394) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:38.530+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:26:38.533+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.532+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:38.649+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:26:38.702+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.702+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:26:38.738+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:26:38.738+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:26:38.775+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.266 seconds
+[2024-09-01T07:27:09.032+0700] {processor.py:161} INFO - Started process (PID=230528) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:09.035+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:27:09.037+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.036+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:09.194+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:09.245+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.245+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:27:09.280+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:09.279+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:27:09.316+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.303 seconds
+[2024-09-01T07:27:40.626+0700] {processor.py:161} INFO - Started process (PID=230708) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:40.628+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:27:40.630+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.629+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:40.716+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:27:40.756+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.756+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:27:40.789+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:27:40.788+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:27:40.818+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.206 seconds
+[2024-09-01T07:28:11.478+0700] {processor.py:161} INFO - Started process (PID=230862) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:11.481+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:28:11.482+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.482+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:11.582+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:11.637+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.636+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:28:11.678+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:11.677+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:28:11.725+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.260 seconds
+[2024-09-01T07:28:42.021+0700] {processor.py:161} INFO - Started process (PID=231009) to work on /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:42.026+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py for tasks to queue
+[2024-09-01T07:28:42.029+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.028+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:42.177+0700] {processor.py:840} INFO - DAG(s) 'scrap_mobil123' retrieved from /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py
+[2024-09-01T07:28:42.265+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.265+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-09-01T07:28:42.328+0700] {logging_mixin.py:188} INFO - [2024-09-01T07:28:42.327+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_mobil123 to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-09-01T07:28:42.358+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/mobil123/scrap_mobil123.py took 0.375 seconds

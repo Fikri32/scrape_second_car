@@ -1,0 +1,39 @@
+{
+    "price": [
+        {
+            "category": "dibawah 30 Juta",
+            "price_min": 25000000,
+            "price_max": 30000000
+        },
+        {
+            "category": "dibawah 40 Juta",
+            "price_min": 30000000,
+            "price_max": 40000000
+        },
+        {
+            "category": "dibawah 50 Juta",
+            "price_min": 40000000,
+            "price_max": 50000000
+        },
+        {
+            "category": "dibawah 60 Juta",
+            "price_min": 50000000,
+            "price_max": 60000000
+        },
+        {
+            "category": "dibawah 70 Juta",
+            "price_min": 60000000,
+            "price_max": 70000000
+        },
+        {
+            "category": "dibawah 80 Juta",
+            "price_min": 70000000,
+            "price_max": 80000000
+        },
+        {
+            "category": "dibawah 90 Juta",
+            "price_min": 80000000,
+            "price_max": 90000000
+        }
+    ]
+}

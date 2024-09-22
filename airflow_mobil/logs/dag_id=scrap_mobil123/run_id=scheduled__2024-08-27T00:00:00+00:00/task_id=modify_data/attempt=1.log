@@ -1,0 +1,249 @@
+[2024-08-31T19:22:31.743+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-31T19:22:31.960+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_mobil123.modify_data scheduled__2024-08-27T00:00:00+00:00 [queued]>
+[2024-08-31T19:22:31.976+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_mobil123.modify_data scheduled__2024-08-27T00:00:00+00:00 [queued]>
+[2024-08-31T19:22:31.976+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-31T19:22:31.998+0700] {taskinstance.py:2330} INFO - Executing <Task(SparkSubmitOperator): modify_data> on 2024-08-27 00:00:00+00:00
+[2024-08-31T19:22:32.004+0700] {standard_task_runner.py:64} INFO - Started process 11539 to run task
+[2024-08-31T19:22:32.009+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_mobil123', 'modify_data', 'scheduled__2024-08-27T00:00:00+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/mobil123/scrap_mobil123.py', '--cfg-path', '/tmp/tmp7tjthj4b']
+[2024-08-31T19:22:32.012+0700] {standard_task_runner.py:91} INFO - Job 143: Subtask modify_data
+[2024-08-31T19:22:32.101+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_mobil123.modify_data scheduled__2024-08-27T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-31T19:22:32.274+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_mobil123' AIRFLOW_CTX_TASK_ID='modify_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-27T00:00:00+00:00'
+[2024-08-31T19:22:32.275+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-31T19:22:32.313+0700] {base.py:84} INFO - Using connection ID 'spark_local' for task execution.
+[2024-08-31T19:22:32.314+0700] {spark_submit.py:403} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --deploy-mode client /home/miracle/mobil/spark/mobil123.py
+[2024-08-31T19:22:34.949+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:34 WARN Utils: Your hostname, BrightHorizons resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2024-08-31T19:22:34.953+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:34 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-08-31T19:22:36.742+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO SparkContext: Running Spark version 3.5.1
+[2024-08-31T19:22:36.743+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO SparkContext: OS info Linux, 5.15.153.1-microsoft-standard-WSL2, amd64
+[2024-08-31T19:22:36.744+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO SparkContext: Java version 11.0.24
+[2024-08-31T19:22:36.818+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-08-31T19:22:36.960+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO ResourceUtils: ==============================================================
+[2024-08-31T19:22:36.962+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-08-31T19:22:36.964+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO ResourceUtils: ==============================================================
+[2024-08-31T19:22:36.965+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:36 INFO SparkContext: Submitted application: Second Car
+[2024-08-31T19:22:37.012+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-08-31T19:22:37.026+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO ResourceProfile: Limiting resource is cpu
+[2024-08-31T19:22:37.027+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-08-31T19:22:37.148+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SecurityManager: Changing view acls to: root
+[2024-08-31T19:22:37.149+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SecurityManager: Changing modify acls to: root
+[2024-08-31T19:22:37.151+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SecurityManager: Changing view acls groups to:
+[2024-08-31T19:22:37.152+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SecurityManager: Changing modify acls groups to:
+[2024-08-31T19:22:37.153+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+[2024-08-31T19:22:37.580+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO Utils: Successfully started service 'sparkDriver' on port 32815.
+[2024-08-31T19:22:37.650+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SparkEnv: Registering MapOutputTracker
+[2024-08-31T19:22:37.731+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SparkEnv: Registering BlockManagerMaster
+[2024-08-31T19:22:37.763+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2024-08-31T19:22:37.764+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2024-08-31T19:22:37.771+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2024-08-31T19:22:37.800+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-46135b9e-f3bb-4fbc-a275-023649ea376b
+[2024-08-31T19:22:37.830+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2024-08-31T19:22:37.870+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:37 INFO SparkEnv: Registering OutputCommitCoordinator
+[2024-08-31T19:22:38.149+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2024-08-31T19:22:38.257+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2024-08-31T19:22:38.260+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2024-08-31T19:22:38.286+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Utils: Successfully started service 'SparkUI' on port 4042.
+[2024-08-31T19:22:38.499+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Executor: Starting executor ID driver on host 10.255.255.254
+[2024-08-31T19:22:38.500+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Executor: OS info Linux, 5.15.153.1-microsoft-standard-WSL2, amd64
+[2024-08-31T19:22:38.501+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Executor: Java version 11.0.24
+[2024-08-31T19:22:38.526+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2024-08-31T19:22:38.527+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@59c5c2d9 for default.
+[2024-08-31T19:22:38.581+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35435.
+[2024-08-31T19:22:38.581+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO NettyBlockTransferService: Server created on 10.255.255.254:35435
+[2024-08-31T19:22:38.584+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2024-08-31T19:22:38.597+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 35435, None)
+[2024-08-31T19:22:38.604+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:35435 with 434.4 MiB RAM, BlockManagerId(driver, 10.255.255.254, 35435, None)
+[2024-08-31T19:22:38.610+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 35435, None)
+[2024-08-31T19:22:38.613+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:38 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 35435, None)
+[2024-08-31T19:22:39.631+0700] {spark_submit.py:579} INFO - CSV files found : ['mobil123_dibawah 80 Juta_2024-08-31.csv', 'mobil123_dibawah 60 Juta_2024-08-31.csv', 'mobil123_dibawah 50 Juta_2024-08-31.csv', 'mobil123_dibawah 30 Juta_2024-08-31.csv', 'mobil123_dibawah 70 Juta_2024-08-31.csv', 'mobil123_dibawah 40 Juta_2024-08-31.csv', 'mobil123_dibawah 90 Juta_2024-08-31.csv']
+[2024-08-31T19:22:39.846+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:39 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2024-08-31T19:22:39.872+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:39 INFO SharedState: Warehouse path is 'file:/home/miracle/spark-warehouse'.
+[2024-08-31T19:22:42.550+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:42 INFO InMemoryFileIndex: It took 146 ms to list leaf files for 8 paths.
+[2024-08-31T19:22:42.721+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:42 INFO InMemoryFileIndex: It took 22 ms to list leaf files for 8 paths.
+[2024-08-31T19:22:45.492+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:45 INFO FileSourceStrategy: Pushed Filters:
+[2024-08-31T19:22:45.494+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:45 INFO FileSourceStrategy: Post-Scan Filters: (length(trim(value#0, None)) > 0)
+[2024-08-31T19:22:46.141+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO CodeGenerator: Code generated in 255.572979 ms
+[2024-08-31T19:22:46.209+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 199.8 KiB, free 434.2 MiB)
+[2024-08-31T19:22:46.264+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 434.2 MiB)
+[2024-08-31T19:22:46.277+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.255.255.254:35435 (size: 34.3 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:46.282+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO SparkContext: Created broadcast 0 from csv at NativeMethodAccessorImpl.java:0
+[2024-08-31T19:22:46.304+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-08-31T19:22:46.440+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO SparkContext: Starting job: csv at NativeMethodAccessorImpl.java:0
+[2024-08-31T19:22:46.458+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Got job 0 (csv at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2024-08-31T19:22:46.459+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Final stage: ResultStage 0 (csv at NativeMethodAccessorImpl.java:0)
+[2024-08-31T19:22:46.459+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Parents of final stage: List()
+[2024-08-31T19:22:46.462+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Missing parents: List()
+[2024-08-31T19:22:46.466+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2024-08-31T19:22:46.560+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 13.5 KiB, free 434.2 MiB)
+[2024-08-31T19:22:46.565+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 434.2 MiB)
+[2024-08-31T19:22:46.565+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.255.255.254:35435 (size: 6.4 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:46.566+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+[2024-08-31T19:22:46.584+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2024-08-31T19:22:46.586+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2024-08-31T19:22:46.647+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 8273 bytes)
+[2024-08-31T19:22:46.665+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2024-08-31T19:22:46.809+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO CodeGenerator: Code generated in 23.110772 ms
+[2024-08-31T19:22:46.818+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/all_second_car_data_2024-08-31.csv, range: 0-321980, partition values: [empty row]
+[2024-08-31T19:22:46.846+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO CodeGenerator: Code generated in 21.05415 ms
+[2024-08-31T19:22:46.912+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1676 bytes result sent to driver
+[2024-08-31T19:22:46.927+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 295 ms on 10.255.255.254 (executor driver) (1/1)
+[2024-08-31T19:22:46.930+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2024-08-31T19:22:46.936+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: ResultStage 0 (csv at NativeMethodAccessorImpl.java:0) finished in 0.454 s
+[2024-08-31T19:22:46.940+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-08-31T19:22:46.941+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2024-08-31T19:22:46.943+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO DAGScheduler: Job 0 finished: csv at NativeMethodAccessorImpl.java:0, took 0.502605 s
+[2024-08-31T19:22:46.964+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:46 INFO CodeGenerator: Code generated in 10.520527 ms
+[2024-08-31T19:22:47.027+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileSourceStrategy: Pushed Filters:
+[2024-08-31T19:22:47.027+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileSourceStrategy: Post-Scan Filters:
+[2024-08-31T19:22:47.033+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 199.8 KiB, free 434.0 MiB)
+[2024-08-31T19:22:47.041+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 433.9 MiB)
+[2024-08-31T19:22:47.042+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.255.255.254:35435 (size: 34.3 KiB, free: 434.3 MiB)
+[2024-08-31T19:22:47.043+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO SparkContext: Created broadcast 2 from csv at NativeMethodAccessorImpl.java:0
+[2024-08-31T19:22:47.045+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-08-31T19:22:47.090+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.255.255.254:35435 in memory (size: 6.4 KiB, free: 434.3 MiB)
+[2024-08-31T19:22:47.105+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.255.255.254:35435 in memory (size: 34.3 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:47.155+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO SparkContext: Starting job: csv at NativeMethodAccessorImpl.java:0
+[2024-08-31T19:22:47.159+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Got job 1 (csv at NativeMethodAccessorImpl.java:0) with 8 output partitions
+[2024-08-31T19:22:47.160+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Final stage: ResultStage 1 (csv at NativeMethodAccessorImpl.java:0)
+[2024-08-31T19:22:47.161+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Parents of final stage: List()
+[2024-08-31T19:22:47.164+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Missing parents: List()
+[2024-08-31T19:22:47.166+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at csv at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2024-08-31T19:22:47.203+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 27.6 KiB, free 434.1 MiB)
+[2024-08-31T19:22:47.205+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 12.7 KiB, free 434.1 MiB)
+[2024-08-31T19:22:47.206+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.255.255.254:35435 (size: 12.7 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:47.207+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1585
+[2024-08-31T19:22:47.209+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Submitting 8 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at csv at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[2024-08-31T19:22:47.209+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSchedulerImpl: Adding task set 1.0 with 8 tasks resource profile 0
+[2024-08-31T19:22:47.212+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 8273 bytes)
+[2024-08-31T19:22:47.213+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2) (10.255.255.254, executor driver, partition 1, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.214+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 3) (10.255.255.254, executor driver, partition 2, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.215+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 3.0 in stage 1.0 (TID 4) (10.255.255.254, executor driver, partition 3, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.216+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 4.0 in stage 1.0 (TID 5) (10.255.255.254, executor driver, partition 4, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.217+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 5.0 in stage 1.0 (TID 6) (10.255.255.254, executor driver, partition 5, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.217+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 6.0 in stage 1.0 (TID 7) (10.255.255.254, executor driver, partition 6, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.218+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Starting task 7.0 in stage 1.0 (TID 8) (10.255.255.254, executor driver, partition 7, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:47.220+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[2024-08-31T19:22:47.221+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 1.0 in stage 1.0 (TID 2)
+[2024-08-31T19:22:47.222+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 2.0 in stage 1.0 (TID 3)
+[2024-08-31T19:22:47.225+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 3.0 in stage 1.0 (TID 4)
+[2024-08-31T19:22:47.228+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 4.0 in stage 1.0 (TID 5)
+[2024-08-31T19:22:47.230+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 5.0 in stage 1.0 (TID 6)
+[2024-08-31T19:22:47.233+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 7.0 in stage 1.0 (TID 8)
+[2024-08-31T19:22:47.234+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Running task 6.0 in stage 1.0 (TID 7)
+[2024-08-31T19:22:47.372+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO CodeGenerator: Code generated in 23.465948 ms
+[2024-08-31T19:22:47.382+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2030%20Juta_2024-08-31.csv, range: 0-8002, partition values: [empty row]
+[2024-08-31T19:22:47.384+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2090%20Juta_2024-08-31.csv, range: 0-136176, partition values: [empty row]
+[2024-08-31T19:22:47.385+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2060%20Juta_2024-08-31.csv, range: 0-21435, partition values: [empty row]
+[2024-08-31T19:22:47.387+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/all_second_car_data_2024-08-31.csv, range: 0-321980, partition values: [empty row]
+[2024-08-31T19:22:47.391+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2050%20Juta_2024-08-31.csv, range: 0-18544, partition values: [empty row]
+[2024-08-31T19:22:47.392+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2040%20Juta_2024-08-31.csv, range: 0-13105, partition values: [empty row]
+[2024-08-31T19:22:47.394+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2070%20Juta_2024-08-31.csv, range: 0-36361, partition values: [empty row]
+[2024-08-31T19:22:47.405+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2080%20Juta_2024-08-31.csv, range: 0-79759, partition values: [empty row]
+[2024-08-31T19:22:47.539+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 5.0 in stage 1.0 (TID 6). 1689 bytes result sent to driver
+[2024-08-31T19:22:47.548+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 5.0 in stage 1.0 (TID 6) in 331 ms on 10.255.255.254 (executor driver) (1/8)
+[2024-08-31T19:22:47.552+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 6.0 in stage 1.0 (TID 7). 1646 bytes result sent to driver
+[2024-08-31T19:22:47.563+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 6.0 in stage 1.0 (TID 7) in 346 ms on 10.255.255.254 (executor driver) (2/8)
+[2024-08-31T19:22:47.567+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 4.0 in stage 1.0 (TID 5). 1689 bytes result sent to driver
+[2024-08-31T19:22:47.570+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 3.0 in stage 1.0 (TID 4). 1646 bytes result sent to driver
+[2024-08-31T19:22:47.585+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 7.0 in stage 1.0 (TID 8). 1646 bytes result sent to driver
+[2024-08-31T19:22:47.586+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 4.0 in stage 1.0 (TID 5) in 367 ms on 10.255.255.254 (executor driver) (3/8)
+[2024-08-31T19:22:47.588+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 7.0 in stage 1.0 (TID 8) in 369 ms on 10.255.255.254 (executor driver) (4/8)
+[2024-08-31T19:22:47.598+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 3.0 in stage 1.0 (TID 4) in 383 ms on 10.255.255.254 (executor driver) (5/8)
+[2024-08-31T19:22:47.617+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 2.0 in stage 1.0 (TID 3). 1689 bytes result sent to driver
+[2024-08-31T19:22:47.628+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 3) in 414 ms on 10.255.255.254 (executor driver) (6/8)
+[2024-08-31T19:22:47.641+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 1.0 in stage 1.0 (TID 2). 1646 bytes result sent to driver
+[2024-08-31T19:22:47.683+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 471 ms on 10.255.255.254 (executor driver) (7/8)
+[2024-08-31T19:22:47.709+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1688 bytes result sent to driver
+[2024-08-31T19:22:47.712+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 500 ms on 10.255.255.254 (executor driver) (8/8)
+[2024-08-31T19:22:47.713+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2024-08-31T19:22:47.714+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: ResultStage 1 (csv at NativeMethodAccessorImpl.java:0) finished in 0.545 s
+[2024-08-31T19:22:47.715+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-08-31T19:22:47.716+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[2024-08-31T19:22:47.720+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:47 INFO DAGScheduler: Job 1 finished: csv at NativeMethodAccessorImpl.java:0, took 0.563600 s
+[2024-08-31T19:22:48.065+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileSourceStrategy: Pushed Filters:
+[2024-08-31T19:22:48.065+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileSourceStrategy: Post-Scan Filters:
+[2024-08-31T19:22:48.145+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO CodeGenerator: Code generated in 42.11884 ms
+[2024-08-31T19:22:48.150+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 199.6 KiB, free 433.9 MiB)
+[2024-08-31T19:22:48.165+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 433.9 MiB)
+[2024-08-31T19:22:48.168+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.255.255.254:35435 (size: 34.2 KiB, free: 434.3 MiB)
+[2024-08-31T19:22:48.169+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO SparkContext: Created broadcast 4 from toPandas at /home/miracle/mobil/spark/mobil123.py:33
+[2024-08-31T19:22:48.182+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-08-31T19:22:48.199+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.255.255.254:35435 in memory (size: 12.7 KiB, free: 434.3 MiB)
+[2024-08-31T19:22:48.207+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.255.255.254:35435 in memory (size: 34.3 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:48.233+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO SparkContext: Starting job: toPandas at /home/miracle/mobil/spark/mobil123.py:33
+[2024-08-31T19:22:48.234+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Got job 2 (toPandas at /home/miracle/mobil/spark/mobil123.py:33) with 8 output partitions
+[2024-08-31T19:22:48.235+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Final stage: ResultStage 2 (toPandas at /home/miracle/mobil/spark/mobil123.py:33)
+[2024-08-31T19:22:48.235+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Parents of final stage: List()
+[2024-08-31T19:22:48.236+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Missing parents: List()
+[2024-08-31T19:22:48.237+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[13] at toPandas at /home/miracle/mobil/spark/mobil123.py:33), which has no missing parents
+[2024-08-31T19:22:48.243+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 18.5 KiB, free 434.2 MiB)
+[2024-08-31T19:22:48.251+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 8.3 KiB, free 434.1 MiB)
+[2024-08-31T19:22:48.253+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.255.255.254:35435 (size: 8.3 KiB, free: 434.4 MiB)
+[2024-08-31T19:22:48.255+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1585
+[2024-08-31T19:22:48.257+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Submitting 8 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at toPandas at /home/miracle/mobil/spark/mobil123.py:33) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+[2024-08-31T19:22:48.258+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSchedulerImpl: Adding task set 2.0 with 8 tasks resource profile 0
+[2024-08-31T19:22:48.262+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 9) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 8273 bytes)
+[2024-08-31T19:22:48.264+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 10) (10.255.255.254, executor driver, partition 1, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.265+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 2.0 in stage 2.0 (TID 11) (10.255.255.254, executor driver, partition 2, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.266+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 3.0 in stage 2.0 (TID 12) (10.255.255.254, executor driver, partition 3, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.267+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 4.0 in stage 2.0 (TID 13) (10.255.255.254, executor driver, partition 4, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.269+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 5.0 in stage 2.0 (TID 14) (10.255.255.254, executor driver, partition 5, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.270+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 6.0 in stage 2.0 (TID 15) (10.255.255.254, executor driver, partition 6, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.272+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Starting task 7.0 in stage 2.0 (TID 16) (10.255.255.254, executor driver, partition 7, PROCESS_LOCAL, 8282 bytes)
+[2024-08-31T19:22:48.282+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 2.0 in stage 2.0 (TID 11)
+[2024-08-31T19:22:48.283+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 4.0 in stage 2.0 (TID 13)
+[2024-08-31T19:22:48.283+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 1.0 in stage 2.0 (TID 10)
+[2024-08-31T19:22:48.284+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 0.0 in stage 2.0 (TID 9)
+[2024-08-31T19:22:48.284+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 5.0 in stage 2.0 (TID 14)
+[2024-08-31T19:22:48.284+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 3.0 in stage 2.0 (TID 12)
+[2024-08-31T19:22:48.285+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 6.0 in stage 2.0 (TID 15)
+[2024-08-31T19:22:48.285+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Running task 7.0 in stage 2.0 (TID 16)
+[2024-08-31T19:22:48.335+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO CodeGenerator: Code generated in 31.395236 ms
+[2024-08-31T19:22:48.339+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2060%20Juta_2024-08-31.csv, range: 0-21435, partition values: [empty row]
+[2024-08-31T19:22:48.341+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2090%20Juta_2024-08-31.csv, range: 0-136176, partition values: [empty row]
+[2024-08-31T19:22:48.342+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2030%20Juta_2024-08-31.csv, range: 0-8002, partition values: [empty row]
+[2024-08-31T19:22:48.342+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2040%20Juta_2024-08-31.csv, range: 0-13105, partition values: [empty row]
+[2024-08-31T19:22:48.343+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2070%20Juta_2024-08-31.csv, range: 0-36361, partition values: [empty row]
+[2024-08-31T19:22:48.343+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2050%20Juta_2024-08-31.csv, range: 0-18544, partition values: [empty row]
+[2024-08-31T19:22:48.344+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/all_second_car_data_2024-08-31.csv, range: 0-321980, partition values: [empty row]
+[2024-08-31T19:22:48.348+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO FileScanRDD: Reading File path: file:///home/miracle/mobil/scrape/output/mobil123/2024-08-31/mobil123_dibawah%2080%20Juta_2024-08-31.csv, range: 0-79759, partition values: [empty row]
+[2024-08-31T19:22:48.387+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO CodeGenerator: Code generated in 25.048411 ms
+[2024-08-31T19:22:48.540+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 7.0 in stage 2.0 (TID 16). 5960 bytes result sent to driver
+[2024-08-31T19:22:48.541+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 5.0 in stage 2.0 (TID 14). 11644 bytes result sent to driver
+[2024-08-31T19:22:48.544+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 5.0 in stage 2.0 (TID 14) in 275 ms on 10.255.255.254 (executor driver) (1/8)
+[2024-08-31T19:22:48.548+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 7.0 in stage 2.0 (TID 16) in 277 ms on 10.255.255.254 (executor driver) (2/8)
+[2024-08-31T19:22:48.549+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 6.0 in stage 2.0 (TID 15). 8687 bytes result sent to driver
+[2024-08-31T19:22:48.556+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 6.0 in stage 2.0 (TID 15) in 286 ms on 10.255.255.254 (executor driver) (3/8)
+[2024-08-31T19:22:48.598+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 0.0 in stage 2.0 (TID 9). 166935 bytes result sent to driver
+[2024-08-31T19:22:48.603+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 9) in 341 ms on 10.255.255.254 (executor driver) (4/8)
+[2024-08-31T19:22:48.791+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 3.0 in stage 2.0 (TID 12). 22166 bytes result sent to driver
+[2024-08-31T19:22:48.793+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 2.0 in stage 2.0 (TID 11). 44464 bytes result sent to driver
+[2024-08-31T19:22:48.794+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 3.0 in stage 2.0 (TID 12) in 528 ms on 10.255.255.254 (executor driver) (5/8)
+[2024-08-31T19:22:48.795+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 2.0 in stage 2.0 (TID 11) in 530 ms on 10.255.255.254 (executor driver) (6/8)
+[2024-08-31T19:22:48.803+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 4.0 in stage 2.0 (TID 13). 13252 bytes result sent to driver
+[2024-08-31T19:22:48.804+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO Executor: Finished task 1.0 in stage 2.0 (TID 10). 72999 bytes result sent to driver
+[2024-08-31T19:22:48.807+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 4.0 in stage 2.0 (TID 13) in 539 ms on 10.255.255.254 (executor driver) (7/8)
+[2024-08-31T19:22:48.809+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 10) in 546 ms on 10.255.255.254 (executor driver) (8/8)
+[2024-08-31T19:22:48.810+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+[2024-08-31T19:22:48.812+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: ResultStage 2 (toPandas at /home/miracle/mobil/spark/mobil123.py:33) finished in 0.570 s
+[2024-08-31T19:22:48.813+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-08-31T19:22:48.814+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+[2024-08-31T19:22:48.814+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:48 INFO DAGScheduler: Job 2 finished: toPandas at /home/miracle/mobil/spark/mobil123.py:33, took 0.578872 s
+[2024-08-31T19:22:49.029+0700] {spark_submit.py:579} INFO - Cleaned data has been saved to /home/miracle/mobil/scrape/output/mobil123/2024-08-31/all_second_car_data_2024-08-31.csv
+[2024-08-31T19:22:49.194+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO SparkContext: Invoking stop() from shutdown hook
+[2024-08-31T19:22:49.194+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2024-08-31T19:22:49.206+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO SparkUI: Stopped Spark web UI at http://10.255.255.254:4042
+[2024-08-31T19:22:49.224+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2024-08-31T19:22:49.239+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO MemoryStore: MemoryStore cleared
+[2024-08-31T19:22:49.239+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO BlockManager: BlockManager stopped
+[2024-08-31T19:22:49.244+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2024-08-31T19:22:49.248+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2024-08-31T19:22:49.257+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO SparkContext: Successfully stopped SparkContext
+[2024-08-31T19:22:49.258+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO ShutdownHookManager: Shutdown hook called
+[2024-08-31T19:22:49.259+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-19a42d5f-23e4-44cb-af7e-d36113a95b76
+[2024-08-31T19:22:49.263+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-0044b184-70bc-4b13-a897-394ab42e7b70
+[2024-08-31T19:22:49.266+0700] {spark_submit.py:579} INFO - 24/08/31 19:22:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-0044b184-70bc-4b13-a897-394ab42e7b70/pyspark-ec56324a-405e-46c7-aa7e-cddf1184c882
+[2024-08-31T19:22:49.332+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-31T19:22:49.345+0700] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=scrap_mobil123, task_id=modify_data, run_id=scheduled__2024-08-27T00:00:00+00:00, execution_date=20240827T000000, start_date=20240831T122231, end_date=20240831T122249
+[2024-08-31T19:22:49.382+0700] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-31T19:22:49.400+0700] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-31T19:22:49.402+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

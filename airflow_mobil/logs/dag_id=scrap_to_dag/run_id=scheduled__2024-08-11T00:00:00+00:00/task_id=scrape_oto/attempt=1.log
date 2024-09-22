@@ -1,0 +1,80 @@
+[2024-08-13T22:24:51.704+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-13T22:24:51.903+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-11T00:00:00+00:00 [queued]>
+[2024-08-13T22:24:51.916+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-11T00:00:00+00:00 [queued]>
+[2024-08-13T22:24:51.917+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-13T22:24:51.934+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-08-11 00:00:00+00:00
+[2024-08-13T22:24:51.938+0700] {standard_task_runner.py:64} INFO - Started process 20334 to run task
+[2024-08-13T22:24:51.941+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_to_dag', 'scrape_oto', 'scheduled__2024-08-11T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmprr3xtqpl']
+[2024-08-13T22:24:51.943+0700] {standard_task_runner.py:91} INFO - Job 28: Subtask scrape_oto
+[2024-08-13T22:24:52.007+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-11T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-13T22:24:52.144+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_to_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-08-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-11T00:00:00+00:00'
+[2024-08-13T22:24:52.145+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-13T22:24:52.158+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-30-juta on date: 2024-08-13
+[2024-08-13T22:24:52.405+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah-30-juta
+[2024-08-13T22:24:54.032+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah-30-juta
+[2024-08-13T22:24:57.172+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah-30-juta
+[2024-08-13T22:25:00.621+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah-30-juta
+[2024-08-13T22:25:04.376+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah-30-juta
+[2024-08-13T22:25:07.636+0700] {logging_mixin.py:188} INFO - Data for price category dibawah-30-juta written to /home/miracle/mobil/scrape/output/oto/2024-08-13/oto_car_dibawah_30_juta_2024-08-13.csv
+[2024-08-13T22:25:07.637+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-40-juta on date: 2024-08-13
+[2024-08-13T22:25:07.856+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:10.916+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:14.820+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:19.119+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:22.201+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:23.627+0700] {logging_mixin.py:188} INFO - Fetching page 6 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:28.513+0700] {logging_mixin.py:188} INFO - Fetching page 7 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:33.518+0700] {logging_mixin.py:188} INFO - Fetching page 8 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:38.782+0700] {logging_mixin.py:188} INFO - Fetching page 9 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:43.209+0700] {logging_mixin.py:188} INFO - Fetching page 10 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:47.693+0700] {logging_mixin.py:188} INFO - Fetching page 11 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:51.199+0700] {logging_mixin.py:188} INFO - Fetching page 12 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:56.263+0700] {logging_mixin.py:188} INFO - Fetching page 13 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:25:59.540+0700] {logging_mixin.py:188} INFO - Fetching page 14 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:26:01.765+0700] {logging_mixin.py:188} INFO - Fetching page 15 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:26:07.054+0700] {logging_mixin.py:188} INFO - Fetching page 16 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:26:09.052+0700] {logging_mixin.py:188} INFO - Fetching page 17 of 17 for price category: dibawah-40-juta
+[2024-08-13T22:26:10.563+0700] {logging_mixin.py:188} INFO - Data for price category dibawah-40-juta written to /home/miracle/mobil/scrape/output/oto/2024-08-13/oto_car_dibawah_40_juta_2024-08-13.csv
+[2024-08-13T22:26:10.564+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-50-juta on date: 2024-08-13
+[2024-08-13T22:26:10.782+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:14.099+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:15.567+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:20.320+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:23.602+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:28.087+0700] {logging_mixin.py:188} INFO - Fetching page 6 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:32.211+0700] {logging_mixin.py:188} INFO - Fetching page 7 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:33.933+0700] {logging_mixin.py:188} INFO - Fetching page 8 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:36.196+0700] {logging_mixin.py:188} INFO - Fetching page 9 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:26:40.233+0700] {logging_mixin.py:188} INFO - Fetching page 10 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:05.013+0700] {logging_mixin.py:188} INFO - Fetching page 11 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:06.685+0700] {logging_mixin.py:188} INFO - Fetching page 12 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:08.510+0700] {logging_mixin.py:188} INFO - Fetching page 13 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:10.057+0700] {logging_mixin.py:188} INFO - Fetching page 14 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:15.341+0700] {logging_mixin.py:188} INFO - Fetching page 15 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:18.854+0700] {logging_mixin.py:188} INFO - Fetching page 16 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:21.971+0700] {logging_mixin.py:188} INFO - Fetching page 17 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:26.151+0700] {logging_mixin.py:188} INFO - Fetching page 18 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:29.071+0700] {logging_mixin.py:188} INFO - Fetching page 19 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:33.552+0700] {logging_mixin.py:188} INFO - Fetching page 20 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:38.211+0700] {logging_mixin.py:188} INFO - Fetching page 21 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:41.883+0700] {logging_mixin.py:188} INFO - Fetching page 22 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:46.741+0700] {logging_mixin.py:188} INFO - Fetching page 23 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:48.270+0700] {logging_mixin.py:188} INFO - Fetching page 24 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:51.836+0700] {logging_mixin.py:188} INFO - Fetching page 25 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:57.098+0700] {logging_mixin.py:188} INFO - Fetching page 26 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:27:59.924+0700] {logging_mixin.py:188} INFO - Fetching page 27 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:04.531+0700] {logging_mixin.py:188} INFO - Fetching page 28 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:08.317+0700] {logging_mixin.py:188} INFO - Fetching page 29 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:12.397+0700] {logging_mixin.py:188} INFO - Fetching page 30 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:16.028+0700] {logging_mixin.py:188} INFO - Fetching page 31 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:19.554+0700] {logging_mixin.py:188} INFO - Fetching page 32 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:23.536+0700] {logging_mixin.py:188} INFO - Fetching page 33 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:25.859+0700] {logging_mixin.py:188} INFO - Fetching page 34 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:28.791+0700] {logging_mixin.py:188} INFO - Fetching page 35 of 49 for price category: dibawah-50-juta
+[2024-08-13T22:28:29.403+0700] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-08-13T22:28:29.403+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-13T22:28:29.406+0700] {process_utils.py:132} INFO - Sending 15 to group 20334. PIDs of all processes in the group: [20334]
+[2024-08-13T22:28:29.406+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 20334
+[2024-08-13T22:28:29.406+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-13T22:28:29.407+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-13T22:28:29.459+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=20334, status='terminated', exitcode=0, started='22:24:51') (20334) terminated with exit code 0

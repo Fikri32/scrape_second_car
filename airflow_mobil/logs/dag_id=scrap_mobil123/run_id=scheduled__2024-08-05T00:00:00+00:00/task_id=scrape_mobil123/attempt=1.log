@@ -1,0 +1,54 @@
+[2024-08-26T00:17:52.109+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-26T00:17:52.402+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-05T00:00:00+00:00 [queued]>
+[2024-08-26T00:17:52.420+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-05T00:00:00+00:00 [queued]>
+[2024-08-26T00:17:52.420+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-26T00:17:52.528+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_mobil123> on 2024-08-05 00:00:00+00:00
+[2024-08-26T00:17:52.533+0700] {standard_task_runner.py:64} INFO - Started process 15387 to run task
+[2024-08-26T00:17:52.537+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_mobil123', 'scrape_mobil123', 'scheduled__2024-08-05T00:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/mobil123/scrap_mobil123.py', '--cfg-path', '/tmp/tmprmj4hnix']
+[2024-08-26T00:17:52.541+0700] {standard_task_runner.py:91} INFO - Job 102: Subtask scrape_mobil123
+[2024-08-26T00:17:52.621+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_mobil123.scrape_mobil123 scheduled__2024-08-05T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-26T00:17:52.747+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_mobil123' AIRFLOW_CTX_TASK_ID='scrape_mobil123' AIRFLOW_CTX_EXECUTION_DATE='2024-08-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-05T00:00:00+00:00'
+[2024-08-26T00:17:52.748+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-26T00:17:54.109+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 2 for price category: dibawah 30 Juta
+[2024-08-26T00:17:55.458+0700] {logging_mixin.py:188} INFO - Sleeping for 2.04 seconds...
+[2024-08-26T00:17:57.502+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 2 for price category: dibawah 30 Juta
+[2024-08-26T00:17:59.651+0700] {logging_mixin.py:188} INFO - Sleeping for 2.39 seconds...
+[2024-08-26T00:18:02.048+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 30 Juta written to /home/miracle/mobil/scrape/output/mobil123/2024-08-26/mobil123_dibawah 30 Juta_2024-08-26.csv
+[2024-08-26T00:18:03.365+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 3 for price category: dibawah 40 Juta
+[2024-08-26T00:18:04.542+0700] {logging_mixin.py:188} INFO - Sleeping for 2.33 seconds...
+[2024-08-26T00:18:06.873+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 3 for price category: dibawah 40 Juta
+[2024-08-26T00:18:08.391+0700] {logging_mixin.py:188} INFO - Sleeping for 2.01 seconds...
+[2024-08-26T00:18:10.404+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 3 for price category: dibawah 40 Juta
+[2024-08-26T00:18:11.295+0700] {logging_mixin.py:188} INFO - Sleeping for 1.77 seconds...
+[2024-08-26T00:18:13.069+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 40 Juta written to /home/miracle/mobil/scrape/output/mobil123/2024-08-26/mobil123_dibawah 40 Juta_2024-08-26.csv
+[2024-08-26T00:18:14.245+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah 50 Juta
+[2024-08-26T00:18:15.633+0700] {logging_mixin.py:188} INFO - Sleeping for 1.70 seconds...
+[2024-08-26T00:18:17.330+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah 50 Juta
+[2024-08-26T00:18:18.967+0700] {logging_mixin.py:188} INFO - Sleeping for 1.96 seconds...
+[2024-08-26T00:18:20.932+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah 50 Juta
+[2024-08-26T00:18:24.566+0700] {logging_mixin.py:188} INFO - Sleeping for 2.76 seconds...
+[2024-08-26T00:18:27.332+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah 50 Juta
+[2024-08-26T00:18:29.914+0700] {logging_mixin.py:188} INFO - Sleeping for 1.84 seconds...
+[2024-08-26T00:18:31.758+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah 50 Juta
+[2024-08-26T00:18:32.405+0700] {logging_mixin.py:188} INFO - Sleeping for 2.60 seconds...
+[2024-08-26T00:18:35.009+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 50 Juta written to /home/miracle/mobil/scrape/output/mobil123/2024-08-26/mobil123_dibawah 50 Juta_2024-08-26.csv
+[2024-08-26T00:18:37.124+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah 60 Juta
+[2024-08-26T00:18:38.803+0700] {logging_mixin.py:188} INFO - Sleeping for 2.73 seconds...
+[2024-08-26T00:18:41.532+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah 60 Juta
+[2024-08-26T00:18:42.723+0700] {logging_mixin.py:188} INFO - Sleeping for 2.62 seconds...
+[2024-08-26T00:18:45.342+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah 60 Juta
+[2024-08-26T00:18:46.325+0700] {logging_mixin.py:188} INFO - Sleeping for 1.59 seconds...
+[2024-08-26T00:18:47.913+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah 60 Juta
+[2024-08-26T00:18:48.874+0700] {logging_mixin.py:188} INFO - Sleeping for 2.47 seconds...
+[2024-08-26T00:18:51.347+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah 60 Juta
+[2024-08-26T00:18:52.291+0700] {logging_mixin.py:188} INFO - Sleeping for 1.64 seconds...
+[2024-08-26T00:18:53.937+0700] {logging_mixin.py:188} INFO - Data for price category dibawah 60 Juta written to /home/miracle/mobil/scrape/output/mobil123/2024-08-26/mobil123_dibawah 60 Juta_2024-08-26.csv
+[2024-08-26T00:18:54.760+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 9 for price category: dibawah 70 Juta
+[2024-08-26T00:18:55.923+0700] {logging_mixin.py:188} INFO - Sleeping for 2.76 seconds...
+[2024-08-26T00:18:58.301+0700] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-08-26T00:18:58.303+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-26T00:18:58.306+0700] {process_utils.py:132} INFO - Sending 15 to group 15387. PIDs of all processes in the group: [15387]
+[2024-08-26T00:18:58.307+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 15387
+[2024-08-26T00:18:58.307+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-26T00:18:58.308+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-26T00:18:58.360+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=15387, status='terminated', exitcode=0, started='00:17:52') (15387) terminated with exit code 0

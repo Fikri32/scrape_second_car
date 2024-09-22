@@ -1,0 +1,70 @@
+[2024-08-19T22:28:25.118+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-19T22:28:25.269+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-18T00:00:00+00:00 [queued]>
+[2024-08-19T22:28:25.281+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-18T00:00:00+00:00 [queued]>
+[2024-08-19T22:28:25.281+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-19T22:28:25.298+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_oto> on 2024-08-18 00:00:00+00:00
+[2024-08-19T22:28:25.301+0700] {standard_task_runner.py:64} INFO - Started process 22314 to run task
+[2024-08-19T22:28:25.305+0700] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scrap_to_dag', 'scrape_oto', 'scheduled__2024-08-18T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/oto/scrap_oto.py', '--cfg-path', '/tmp/tmpx8rwoxeh']
+[2024-08-19T22:28:25.309+0700] {standard_task_runner.py:91} INFO - Job 39: Subtask scrape_oto
+[2024-08-19T22:28:25.382+0700] {task_command.py:426} INFO - Running <TaskInstance: scrap_to_dag.scrape_oto scheduled__2024-08-18T00:00:00+00:00 [running]> on host BrightHorizons.
+[2024-08-19T22:28:25.503+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scrap_to_dag' AIRFLOW_CTX_TASK_ID='scrape_oto' AIRFLOW_CTX_EXECUTION_DATE='2024-08-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-18T00:00:00+00:00'
+[2024-08-19T22:28:25.504+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-19T22:28:25.515+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-30-juta on date: 2024-08-19
+[2024-08-19T22:28:26.003+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 5 for price category: dibawah-30-juta
+[2024-08-19T22:28:27.733+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 5 for price category: dibawah-30-juta
+[2024-08-19T22:28:29.784+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 5 for price category: dibawah-30-juta
+[2024-08-19T22:28:35.188+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 5 for price category: dibawah-30-juta
+[2024-08-19T22:28:39.275+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 5 for price category: dibawah-30-juta
+[2024-08-19T22:28:42.986+0700] {logging_mixin.py:188} INFO - Data for price category dibawah-30-juta written to /home/miracle/mobil/scrape/output/oto/2024-08-19/oto_car_dibawah_30_juta_2024-08-19.csv
+[2024-08-19T22:28:42.986+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-40-juta on date: 2024-08-19
+[2024-08-19T22:28:43.274+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:28:46.069+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:28:51.249+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:28:54.183+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:28:57.206+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:00.246+0700] {logging_mixin.py:188} INFO - Fetching page 6 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:02.512+0700] {logging_mixin.py:188} INFO - Fetching page 7 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:04.658+0700] {logging_mixin.py:188} INFO - Fetching page 8 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:09.448+0700] {logging_mixin.py:188} INFO - Fetching page 9 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:13.030+0700] {logging_mixin.py:188} INFO - Fetching page 10 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:17.718+0700] {logging_mixin.py:188} INFO - Fetching page 11 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:24.693+0700] {logging_mixin.py:188} INFO - Fetching page 12 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:26.667+0700] {logging_mixin.py:188} INFO - Fetching page 13 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:31.106+0700] {logging_mixin.py:188} INFO - Fetching page 14 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:35.297+0700] {logging_mixin.py:188} INFO - Fetching page 15 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:39.437+0700] {logging_mixin.py:188} INFO - Fetching page 16 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:44.234+0700] {logging_mixin.py:188} INFO - Fetching page 17 of 17 for price category: dibawah-40-juta
+[2024-08-19T22:29:46.267+0700] {logging_mixin.py:188} INFO - Data for price category dibawah-40-juta written to /home/miracle/mobil/scrape/output/oto/2024-08-19/oto_car_dibawah_40_juta_2024-08-19.csv
+[2024-08-19T22:29:46.268+0700] {logging_mixin.py:188} INFO - Fetching data for price category: dibawah-50-juta on date: 2024-08-19
+[2024-08-19T22:29:46.683+0700] {logging_mixin.py:188} INFO - Fetching page 1 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:29:51.276+0700] {logging_mixin.py:188} INFO - Fetching page 2 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:29:55.336+0700] {logging_mixin.py:188} INFO - Fetching page 3 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:29:57.799+0700] {logging_mixin.py:188} INFO - Fetching page 4 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:30:00.747+0700] {logging_mixin.py:188} INFO - Fetching page 5 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:30:05.885+0700] {logging_mixin.py:188} INFO - Fetching page 6 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:30:09.740+0700] {logging_mixin.py:188} INFO - Fetching page 7 of 49 for price category: dibawah-50-juta
+[2024-08-19T22:30:11.399+0700] {local_task_job_runner.py:291} WARNING - Recorded pid 22922 does not match the current pid 22314
+[2024-08-19T22:30:11.400+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-19T22:30:11.405+0700] {process_utils.py:132} INFO - Sending 15 to group 22314. PIDs of all processes in the group: [22314]
+[2024-08-19T22:30:11.406+0700] {process_utils.py:87} INFO - Sending the signal 15 to group 22314
+[2024-08-19T22:30:11.406+0700] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-19T22:30:11.407+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-19T22:30:11.428+0700] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/miracle/mobil/scrape/script/oto/oto_scrape.py", line 101, in oto_scrape
+    time.sleep(random.uniform(1, 5))
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-08-19T22:30:11.438+0700] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=scrap_to_dag, task_id=scrape_oto, run_id=scheduled__2024-08-18T00:00:00+00:00, execution_date=20240818T000000, start_date=20240819T153006, end_date=20240819T153011
+[2024-08-19T22:30:11.499+0700] {process_utils.py:80} INFO - Process psutil.Process(pid=22314, status='terminated', exitcode=2, started='22:28:24') (22314) terminated with exit code 2

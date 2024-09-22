@@ -1,0 +1,490 @@
+[2024-08-01T05:42:29.016+0700] {processor.py:161} INFO - Started process (PID=30581) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:29.017+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:42:29.018+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.017+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:29.021+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:29.021+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:42:29.026+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:29.118+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.117+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:scrap_to_dag
+[2024-08-01T05:42:29.127+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.126+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:scrap_to_dag
+[2024-08-01T05:42:29.133+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.133+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:scrap_to_dag
+[2024-08-01T05:42:29.133+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.133+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:42:29.142+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.141+0700] {dag.py:3111} INFO - Creating ORM DAG for scrap_to_dag
+[2024-08-01T05:42:29.148+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:29.148+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:42:29.161+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.151 seconds
+[2024-08-01T05:42:59.283+0700] {processor.py:161} INFO - Started process (PID=30778) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:59.285+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:42:59.286+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:59.286+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:59.287+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:59.287+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:42:59.292+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:42:59.311+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:59.311+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:42:59.331+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:42:59.330+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:42:59.349+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.070 seconds
+[2024-08-01T05:43:29.419+0700] {processor.py:161} INFO - Started process (PID=30908) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:29.420+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:43:29.421+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:29.421+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:29.423+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:29.423+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:43:29.427+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:29.446+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:29.446+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:43:29.462+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:29.462+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:43:29.479+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.064 seconds
+[2024-08-01T05:43:59.612+0700] {processor.py:161} INFO - Started process (PID=31041) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:59.613+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:43:59.615+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:59.614+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:59.617+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:59.617+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:43:59.625+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:43:59.647+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:59.646+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:43:59.665+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:43:59.665+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:43:59.690+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.083 seconds
+[2024-08-01T05:44:29.749+0700] {processor.py:161} INFO - Started process (PID=31173) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:29.750+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:44:29.751+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:44:29.751+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:29.753+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:29.753+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:44:29.757+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:29.776+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:44:29.776+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:44:29.793+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:44:29.793+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:44:29.809+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T05:44:59.950+0700] {processor.py:161} INFO - Started process (PID=31303) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:59.951+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:44:59.952+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:44:59.952+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:59.954+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:59.955+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:44:59.963+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:44:59.986+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:44:59.986+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:45:00.003+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:45:00.003+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:45:00.024+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.081 seconds
+[2024-08-01T05:45:30.091+0700] {processor.py:161} INFO - Started process (PID=31466) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:45:30.092+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:45:30.093+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:45:30.093+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:45:30.095+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:45:30.095+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:45:30.100+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:45:30.121+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:45:30.121+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:45:30.138+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:45:30.138+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:45:30.157+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.071 seconds
+[2024-08-01T05:46:00.287+0700] {processor.py:161} INFO - Started process (PID=31595) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:00.288+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:46:00.289+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:00.289+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:00.291+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:00.291+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:46:00.295+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:00.315+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:00.314+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:46:00.332+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:00.331+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:46:00.349+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.067 seconds
+[2024-08-01T05:46:30.427+0700] {processor.py:161} INFO - Started process (PID=31737) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:30.428+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:46:30.429+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:30.429+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:30.431+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:30.431+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:46:30.435+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:46:30.451+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:30.450+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:46:30.468+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:46:30.467+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:46:30.484+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.061 seconds
+[2024-08-01T05:47:00.609+0700] {processor.py:161} INFO - Started process (PID=31874) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:00.610+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:47:00.611+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:00.611+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:00.612+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:00.613+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:47:00.617+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:00.632+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:00.632+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:47:00.649+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:00.648+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:47:00.761+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.156 seconds
+[2024-08-01T05:47:30.886+0700] {processor.py:161} INFO - Started process (PID=32008) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:30.888+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:47:30.889+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:30.889+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:30.890+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:30.890+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:47:30.894+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:47:31.038+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:31.037+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:47:31.051+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:47:31.051+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:47:31.068+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.186 seconds
+[2024-08-01T05:48:01.228+0700] {processor.py:161} INFO - Started process (PID=32140) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:01.232+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:48:01.239+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:01.238+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:01.243+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:01.243+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:48:01.264+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:01.404+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:01.403+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:48:01.422+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:01.422+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:48:01.440+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.227 seconds
+[2024-08-01T05:48:31.572+0700] {processor.py:161} INFO - Started process (PID=32268) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:31.573+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:48:31.576+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:31.575+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:31.578+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:31.578+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:48:31.584+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:48:31.611+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:31.611+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:48:31.645+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:48:31.645+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:48:31.673+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.108 seconds
+[2024-08-01T05:49:01.705+0700] {processor.py:161} INFO - Started process (PID=32394) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:01.706+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:49:01.707+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:01.707+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:01.709+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:01.709+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:49:01.714+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:01.736+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:01.735+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:49:01.754+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:01.754+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:49:01.770+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.071 seconds
+[2024-08-01T05:49:31.853+0700] {processor.py:161} INFO - Started process (PID=32521) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:31.854+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:49:31.856+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:31.855+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:31.858+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:31.858+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:49:31.864+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:49:31.889+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:31.889+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:49:31.912+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:49:31.911+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:49:31.933+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.087 seconds
+[2024-08-01T05:50:02.021+0700] {processor.py:161} INFO - Started process (PID=32648) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:02.022+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:50:02.023+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:02.023+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:02.025+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:02.025+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:50:02.030+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:02.050+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:02.050+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:50:02.067+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:02.067+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:50:02.085+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.068 seconds
+[2024-08-01T05:50:32.191+0700] {processor.py:161} INFO - Started process (PID=32776) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:32.192+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:50:32.194+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:32.193+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:32.195+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:32.196+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:50:32.201+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:50:32.225+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:32.225+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:50:32.242+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:50:32.242+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:50:32.260+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.074 seconds
+[2024-08-01T05:51:02.333+0700] {processor.py:161} INFO - Started process (PID=32902) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:02.334+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:51:02.336+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:02.336+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:02.337+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:02.337+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:51:02.341+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:02.361+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:02.361+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:51:02.378+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:02.378+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:51:02.396+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.067 seconds
+[2024-08-01T05:51:32.513+0700] {processor.py:161} INFO - Started process (PID=33030) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:32.514+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:51:32.516+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:32.516+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:32.517+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:32.517+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:51:32.522+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:51:32.541+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:32.541+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:51:32.559+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:51:32.559+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:51:32.576+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.068 seconds
+[2024-08-01T05:52:02.651+0700] {processor.py:161} INFO - Started process (PID=33158) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:02.652+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:52:02.653+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:02.653+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:02.654+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:02.655+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:52:02.659+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:02.681+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:02.681+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:52:02.699+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:02.698+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:52:02.719+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.073 seconds
+[2024-08-01T05:52:32.840+0700] {processor.py:161} INFO - Started process (PID=33283) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:32.841+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:52:32.843+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:32.842+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:32.845+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:32.845+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:52:32.855+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:52:32.879+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:32.879+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:52:32.899+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:52:32.899+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:52:32.918+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.084 seconds
+[2024-08-01T05:53:02.977+0700] {processor.py:161} INFO - Started process (PID=33412) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:02.978+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:53:02.979+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:02.979+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:02.980+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:02.981+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:53:02.985+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:03.007+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:03.007+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:53:03.029+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:03.028+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:53:03.051+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.079 seconds
+[2024-08-01T05:53:33.165+0700] {processor.py:161} INFO - Started process (PID=33540) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:33.166+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:53:33.167+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:33.167+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:33.169+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:33.169+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:53:33.173+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:53:33.193+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:33.193+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:53:33.210+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:53:33.210+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:53:33.228+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.067 seconds
+[2024-08-01T05:54:03.303+0700] {processor.py:161} INFO - Started process (PID=33666) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:03.305+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:54:03.306+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:03.306+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:03.307+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:03.307+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:54:03.313+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:03.333+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:03.333+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:54:03.350+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:03.350+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:54:03.370+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.071 seconds
+[2024-08-01T05:54:33.478+0700] {processor.py:161} INFO - Started process (PID=33793) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:33.479+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:54:33.480+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:33.480+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:33.482+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:33.482+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:54:33.487+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:54:33.507+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:33.507+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:54:33.525+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:54:33.525+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:54:33.544+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.072 seconds
+[2024-08-01T05:55:03.624+0700] {processor.py:161} INFO - Started process (PID=33923) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:03.625+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:55:03.626+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:03.626+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:03.628+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:03.628+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:55:03.632+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:03.654+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:03.653+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:55:03.671+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:03.670+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:55:03.689+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.069 seconds
+[2024-08-01T05:55:33.796+0700] {processor.py:161} INFO - Started process (PID=34050) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:33.797+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:55:33.799+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:33.799+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:33.800+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:33.800+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:55:33.804+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:55:33.823+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:33.822+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:55:33.839+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:55:33.839+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:55:33.854+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.062 seconds
+[2024-08-01T05:56:03.950+0700] {processor.py:161} INFO - Started process (PID=34176) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:03.951+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:56:03.952+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:03.952+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:03.953+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:03.954+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:56:03.958+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:03.979+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:03.979+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:56:03.996+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:03.996+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:56:04.014+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.069 seconds
+[2024-08-01T05:56:34.110+0700] {processor.py:161} INFO - Started process (PID=34304) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:34.111+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:56:34.112+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:34.112+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:34.114+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:34.114+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:56:34.118+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:56:34.138+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:34.138+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:56:34.154+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:56:34.154+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:56:34.170+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T05:57:04.262+0700] {processor.py:161} INFO - Started process (PID=34431) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:04.263+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:57:04.264+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:04.264+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:04.265+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:04.266+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:57:04.270+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:04.289+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:04.289+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:57:04.305+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:04.305+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:57:04.322+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.064 seconds
+[2024-08-01T05:57:34.427+0700] {processor.py:161} INFO - Started process (PID=34559) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:34.428+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:57:34.429+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:34.429+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:34.431+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:34.431+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:57:34.435+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:57:34.454+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:34.454+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:57:34.469+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:57:34.469+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:57:34.488+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T05:58:04.574+0700] {processor.py:161} INFO - Started process (PID=34685) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:04.576+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:58:04.577+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:04.577+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:04.578+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:04.578+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:58:04.582+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:04.602+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:04.602+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:58:04.618+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:04.617+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:58:04.635+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T05:58:34.738+0700] {processor.py:161} INFO - Started process (PID=34812) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:34.739+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:58:34.741+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:34.740+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:34.742+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:34.742+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:58:34.746+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:58:34.765+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:34.764+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:58:34.782+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:58:34.781+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:58:34.799+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T05:59:04.885+0700] {processor.py:161} INFO - Started process (PID=34938) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:04.886+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:59:04.888+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:04.887+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:04.889+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:04.889+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:59:04.893+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:04.913+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:04.912+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:59:04.929+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:04.928+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:59:04.943+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.063 seconds
+[2024-08-01T05:59:35.052+0700] {processor.py:161} INFO - Started process (PID=35067) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:35.053+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T05:59:35.054+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:35.053+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:35.055+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:35.055+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T05:59:35.059+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T05:59:35.078+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:35.078+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T05:59:35.094+0700] {logging_mixin.py:188} INFO - [2024-08-01T05:59:35.094+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T05:59:35.111+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.064 seconds
+[2024-08-01T06:00:05.193+0700] {processor.py:161} INFO - Started process (PID=35193) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:05.194+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:00:05.195+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:05.195+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:05.197+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:05.197+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:00:05.201+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:05.220+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:05.220+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:00:05.236+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:05.236+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:00:05.253+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.064 seconds
+[2024-08-01T06:00:35.377+0700] {processor.py:161} INFO - Started process (PID=35320) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:35.378+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:00:35.379+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:35.379+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:35.381+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:35.381+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:00:35.385+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:00:35.406+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:35.406+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:00:35.424+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:00:35.423+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:00:35.443+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.071 seconds
+[2024-08-01T06:01:05.510+0700] {processor.py:161} INFO - Started process (PID=35446) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:05.511+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:01:05.512+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:05.512+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:05.513+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:05.513+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:01:05.518+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:05.537+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:05.536+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:01:05.554+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:05.554+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:01:05.570+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T06:01:35.696+0700] {processor.py:161} INFO - Started process (PID=35574) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:35.697+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:01:35.698+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:35.698+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:35.699+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:35.699+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:01:35.703+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:01:35.722+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:35.722+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:01:35.738+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:01:35.738+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:01:35.753+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.062 seconds
+[2024-08-01T06:02:05.833+0700] {processor.py:161} INFO - Started process (PID=35700) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:05.834+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:02:05.835+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:05.835+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:05.836+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:05.836+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:02:05.841+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:05.862+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:05.861+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:02:05.878+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:05.877+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:02:05.895+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:02:36.010+0700] {processor.py:161} INFO - Started process (PID=35828) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:36.011+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:02:36.012+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:36.012+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:36.014+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:36.014+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:02:36.018+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:02:36.037+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:36.036+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:02:36.053+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:02:36.053+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:02:36.071+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T06:03:06.149+0700] {processor.py:161} INFO - Started process (PID=35954) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:06.150+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:03:06.151+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:06.151+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:06.152+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:06.153+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:03:06.157+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:06.176+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:06.176+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:03:06.192+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:06.192+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:03:06.210+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:03:36.324+0700] {processor.py:161} INFO - Started process (PID=36081) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:36.325+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:03:36.327+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:36.327+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:36.328+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:36.328+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:03:36.332+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:03:36.350+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:36.350+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:03:36.366+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:03:36.366+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:03:36.382+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.063 seconds
+[2024-08-01T06:04:06.467+0700] {processor.py:161} INFO - Started process (PID=36208) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:06.468+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:04:06.469+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:06.469+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:06.470+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:06.470+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:04:06.475+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:06.494+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:06.494+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:04:06.510+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:06.510+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:04:06.525+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.062 seconds
+[2024-08-01T06:04:36.641+0700] {processor.py:161} INFO - Started process (PID=36333) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:36.642+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:04:36.643+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:36.643+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:36.644+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:36.645+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:04:36.649+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:04:36.667+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:36.667+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:04:36.685+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:04:36.685+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:04:36.703+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:05:06.787+0700] {processor.py:161} INFO - Started process (PID=36464) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:06.788+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:05:06.789+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:06.789+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:06.791+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:06.791+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:05:06.795+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:06.814+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:06.814+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:05:06.830+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:06.830+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:05:06.847+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T06:05:36.964+0700] {processor.py:161} INFO - Started process (PID=36590) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:36.965+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:05:36.966+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:36.966+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:36.967+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:36.968+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:05:36.972+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:05:36.993+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:36.993+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:05:37.011+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:05:37.011+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:05:37.029+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.071 seconds
+[2024-08-01T06:06:07.105+0700] {processor.py:161} INFO - Started process (PID=36717) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:07.106+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:06:07.107+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:07.106+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:07.108+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:07.108+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:06:07.112+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:07.132+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:07.132+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:06:07.148+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:07.148+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:06:07.166+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:06:37.288+0700] {processor.py:161} INFO - Started process (PID=36844) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:37.289+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:06:37.290+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:37.290+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:37.291+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:37.292+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:06:37.296+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:06:37.316+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:37.316+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:06:37.332+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:06:37.332+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:06:37.351+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.067 seconds
+[2024-08-01T06:07:07.424+0700] {processor.py:161} INFO - Started process (PID=36970) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:07.424+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:07:07.426+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:07.425+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:07.427+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:07.427+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:07:07.431+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:07.451+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:07.450+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:07:07.469+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:07.469+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:07:07.484+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.065 seconds
+[2024-08-01T06:07:37.621+0700] {processor.py:161} INFO - Started process (PID=37097) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:37.622+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:07:37.623+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:37.623+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:37.624+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:37.624+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:07:37.628+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:07:37.648+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:37.648+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:07:37.665+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:07:37.665+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:07:37.682+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:08:07.765+0700] {processor.py:161} INFO - Started process (PID=37224) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:07.766+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:08:07.767+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:07.767+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:07.768+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:07.768+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:08:07.772+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:07.792+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:07.792+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:08:07.808+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:07.808+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:08:07.826+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.066 seconds
+[2024-08-01T06:08:37.940+0700] {processor.py:161} INFO - Started process (PID=37350) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:37.940+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:08:37.941+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:37.941+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:37.942+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:37.943+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:08:37.947+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:08:37.966+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:37.966+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:08:37.982+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:08:37.982+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:08:37.997+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.062 seconds
+[2024-08-01T06:09:08.082+0700] {processor.py:161} INFO - Started process (PID=37480) to work on /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:09:08.083+0700] {processor.py:830} INFO - Processing file /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py for tasks to queue
+[2024-08-01T06:09:08.084+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:09:08.084+0700] {dagbag.py:545} INFO - Filling up the DagBag from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:09:08.086+0700] {logging_mixin.py:188} INFO - Current file path: /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:09:08.086+0700] {logging_mixin.py:188} INFO - Intended scrapper path: /home/miracle/mobil/scrapper
+[2024-08-01T06:09:08.091+0700] {processor.py:840} INFO - DAG(s) 'scrap_to_dag' retrieved from /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py
+[2024-08-01T06:09:08.112+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:09:08.111+0700] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T06:09:08.127+0700] {logging_mixin.py:188} INFO - [2024-08-01T06:09:08.127+0700] {dag.py:3947} INFO - Setting next_dagrun for scrap_to_dag to None, run_after=None
+[2024-08-01T06:09:08.144+0700] {processor.py:183} INFO - Processing /home/miracle/mobil/airflow_mobil/dags/oto/scrap_oto.py took 0.067 seconds
